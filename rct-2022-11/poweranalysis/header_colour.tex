@@ -1,0 +1,231 @@
+\documentclass[a4paper, 10pt, onecolumn]{article} 
+
+%-------- FONTS AND SYMBOLS-------------------------------------
+\usepackage{amsmath,amssymb,bm}
+\usepackage{eurosym}
+\usepackage{wasysym} % some special symbol? 
+\usepackage{multicol}
+%\frenchspacing
+
+\usepackage{charter}
+%\usepackage[T1]{fontenc}
+%\usepackage[latin1]{inputenc}
+%\usepackage[scaled]{helvet}
+%\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+
+
+%-------- REFERENCES -------------------------------------------
+\usepackage[round,authoryear]{natbib}
+%\usepackage[numbers]{natbib}
+%\usepackage[super]{natbib}
+\usepackage[hyperindex=true,breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	citecolor=linkcol,
+	filecolor=linkcol,
+	urlcolor =linkcol,
+	linkcolor=linkcol,
+}
+\urlstyle{same}
+\usepackage{url}
+
+%-------- INDEX ------------------------------------------------
+\usepackage{makeidx}
+\makeindex
+\newcommand{\mytwocoltoc}{
+	{\small
+	\parskip 0pt
+	\columnsep 24pt
+	\begin{multicols}{2}
+	\tableofcontents
+	\end{multicols}
+	\parskip 8pt
+	}
+}
+
+%-------- FIGURES, CAPTIONS ETC. -------------------------------
+\usepackage[dvips]{graphicx}
+\usepackage[margin=20pt,labelfont=sc,indention=.5cm]{caption} 	% figure captions
+\makeatletter
+	\newcommand\figcaption{\def\@captype{figure}\caption}
+\makeatother
+
+\usepackage{sidecap}
+\usepackage{rotating}
+\usepackage{colortbl}
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+%\usepackage[nolists]{endfloat}
+
+\usepackage{multirow}
+
+\newcommand{\mypic}[3]{
+	\marginpar{\hspace{-#1cm}\parbox{#2\textwidth}{\includegraphics[width=#2\textwidth]{#3}}}
+}
+
+\newcommand{\mypicc}[4]{
+	\marginpar{\hspace{-#1cm}\parbox{#2\textwidth}{\includegraphics[width=#2\textwidth]{#3}\\\small\raggedleft#4}}
+}
+
+\let \oldmarginpar\marginpar
+\newcommand{\mymarginpar}[1]{\oldmarginpar{{\parbox{2.4cm}{\small\raggedright #1}}}}
+\newcommand{\mymarginparr}[3]{\oldmarginpar{\hspace{-#1cm}{\parbox{#2cm}{\small\raggedright #3}}}}
+
+\renewcommand{\marginpar}[1]{\-\oldmarginpar{\small\raggedright #1}}
+
+\newcommand{\myig}[2]{\includegraphics[width=#1\textwidth]{#2}}
+\newcommand{\myigg}[3]{\parbox{#1\textwidth}{\vspace{.25em}\includegraphics[width=#1\textwidth]{#2}\\\small\raggedleft#3}}
+
+\newcommand{\mybox}[2]{\fbox{ \begin{minipage}{#1\textwidth} #2 \end{minipage}}}
+\newcommand{\myboxw}[3]{\fcolorbox{white}{#2}{\begin{minipage}{#1\textwidth} #3 \end{minipage}}}
+\newcommand{\sidebox}[3]{\marginpar{\hspace{-#1cm}\fbox{\begin{minipage}{#2cm} #3 \end{minipage}}}}
+\newcommand{\sideboxc}[4]{\marginpar{\hspace{-#1cm}\fcolorbox{white}{#3}{\begin{minipage}{#2cm} #4 \end{minipage}}}}
+
+\newcommand{\defin}[1]{\begin{center}\fcolorbox{red}{dyellow}{\parbox{.7\textwidth}{\centering #1}}\end{center}}
+\newcommand{\nb}[1]{{\dotfill \raggedleft \small\itshape (#1)}}
+
+
+%-------- PAGE LAYOUT-------------------------------------------
+\usepackage{geometry}
+%\textwidth=16cm \hoffset=-2cm \textheight=23cm \voffset=-1.5cm 		% a4 new
+\geometry{textwidth=16cm,textheight=23cm}		% a4 new
+%\newcommand{\air}{\textwidth=17cm \hoffset=-2.5cm \textheight=21.5cm \voffset=-2cm} 		% a4 on air 
+\newcommand{\air}{\geometry{textwidth=17cm,textheight=21.5cm}}		% a4 new
+%\textwidth=15cm \hoffset=-1.5cm \textheight=24cm \voffset=-2cm 		% a4
+%\textwidth=16cm \hoffset=-2cm \textheight=22.5cm \voffset=-2.5cm 	% letter
+%\textwidth=17cm \hoffset=-.7cm \textheight=24cm \voffset=-2cm 		% two columns
+
+
+%-------- PARAGRAPH LOOK ---------------------------------------
+\setcounter{secnumdepth}{3}	% numbering 
+\setcounter{tocdepth}{2}
+\parindent 0pt
+\parskip 8pt
+%\usepackage{setspace} 
+%\doublespacing
+%\onehalfspacing
+
+
+%-------- HEADER -----------------------------------------------
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+
+
+%-------- SUPPLEMENTARY MATERIAL -------------------------------
+\newcommand{\supplementarymaterial}{
+	\newpage
+	\section{Supplementary Material}
+
+	\renewcommand{\thefigure}{S\arabic{figure}}
+	\renewcommand{\thetable}{S\arabic{table}} 
+	\renewcommand{\thesection}{S\arabic{section}}
+	\renewcommand{\thesubsection}{S\arabic{subsection}}
+	\renewcommand{\thesubsubsection}{S\arabic{subsubsection}}
+
+	\setcounter{figure}{0} 
+	\setcounter{table}{0}
+	\setcounter{section}{0}
+	\setcounter{subsubsection}{0}
+}
+
+%-------- REFERENCES -------------------------------------------
+\newcommand{\myrefs}{
+	\section{References}
+	\renewcommand\refname{}
+	\vspace{-2ex}
+	\bibsep 0pt
+	\bibliographystyle{apalike}
+	\bibliography{../fullrefs}
+}
+
+%-------- COLOURS ----------------------------------------------
+
+\usepackage{color}
+
+\definecolor{blues}{rgb}{.2,.2,.5}  
+\definecolor{blueds}{rgb}{0,0,.3}  
+\definecolor{bluess}{rgb}{.2,.2,.8}  
+\definecolor{linkcol}{rgb}{0,0,.3}  
+\definecolor{red}{rgb}{.9,.1,.1}  
+
+\newcommand{\blues}  {\textcolor{blues}}
+\newcommand{\blueds}  {\textcolor{blueds}}
+\newcommand{\bluess}  {\textcolor{bluess}}
+\newcommand{\linkcol}  {\textcolor{linkcol}}
+\newcommand{\red}  {\textcolor{red}}
+
+\newcommand{\emb}[1]{\blueds{\bf #1}}
+\newcommand{\emf}[1]{\blueds{\em #1}}
+\newcommand{\emr}[1]{\red{\em #1}}
+
+
+
+%-------- LISTS ------------------------------------------------
+\usepackage{mdwlist}	 % for basedescript modified description environment
+
+\renewcommand{\i}{\item}
+\newenvironment{myit}
+	{\parskip 0pt
+		\begin{itemize*} 
+		\setlength{\itemsep}{0pt} 
+		\setlength{\parskip}{0pt} 
+		\setlength{\parsep}{0pt}
+		\setlength{\topsep}{-8pt}
+	}
+	{\parskip 6pt \end{itemize*}}
+
+\newenvironment{myenum}
+	{\parskip 0pt
+		\begin{enumerate*} 
+		\setlength{\itemsep}{0pt} 
+		\setlength{\parskip}{0pt} 
+		\setlength{\parsep}{0pt}
+		\setlength{\topsep}{-8pt}
+	}
+	{\parskip 8pt \end{enumerate*}}
+
+\newenvironment{myde}
+	{\parskip 0pt
+	\begin{basedescript}{\desclabelstyle{\pushlabel} \desclabelwidth{2.5em}}
+		\renewcommand{\makelabel}[1]{\blueds{\bf##1}\hfil}
+		\setlength{\itemsep}{0pt} 
+		\setlength{\parskip}{0pt} 
+		\setlength{\parsep}{0pt}
+		\setlength{\topsep}{0pt}
+	}
+	{\end{basedescript} \parskip 8pt}
+
+
+
+%-------- SECTIONS ETC. ----------------------------------------
+
+\usepackage{ifthen}
+
+% \@startsection {NAME}{LEVEL}{INDENT}{BEFORESKIP}{AFTERSKIP}{STYLE} 
+%            optional * [ALTHEADING]{HEADING}
+%    Generic command to start a section.  
+%    NAME       : e.g., 'subsection'
+%    LEVEL      : a number, denoting depth of section -- e.g., chapter=1,
+%                 section = 2, etc.  A section number will be printed if
+%                 and only if LEVEL < or = the value of the secnumdepth
+%                 counter.
+%    INDENT     : Indentation of heading from left margin
+%    BEFORESKIP : Absolute value = skip to leave above the heading.  
+%                 If negative, then paragraph indent of text following 
+%                 heading is suppressed.
+%    AFTERSKIP  : if positive, then skip to leave below heading,
+%                       else - skip to leave to right of run-in heading.
+%    STYLE      : commands to set style
+%  If '*' missing, then increments the counter.  If it is present, then
+%  there should be no [ALTHEADING] argument.  A sectioning command
+%  is normally defined to \@startsection + its first six arguments.
+
+
+\makeatletter
+\def\section      {\@startsection{section}{1}{1pt}{-3.5ex plus -1ex minus -.2ex}{1.5ex plus .2ex}{\sc\Large\blues}}
+\def\subsection   {\@startsection{subsection}   {2}{0pt}{-2.25ex plus -1ex minus -.2ex}{1.0ex plus .2ex}{\large\sc\bluess}}
+\def\subsubsection{\@startsection{subsubsection}{3}{0pt}{-0.25ex plus -.2ex minus -.1ex}{0.2ex plus .05ex}{\normalsize\it\bluess}}
+\makeatother
+
+
