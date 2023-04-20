@@ -1,0 +1,266 @@
+pid,age,sex,eth_original,employ_original,edu_original,apps_original,thpy_original,expect_original,wsas1_0,wsas2_0,wsas3_0,wsas4_0,wsas5_0,operating_sys,group
+5bddfba7712eb800010d3a61,53,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Quite successful,6,6,6,4,7,iOS,treatment
+5b87c3f9e88caf0001b79375,33,Female,Mixed/Multiple ethnic groups,Working part-time,Postgraduate degree or equivalent,No,No,Quite successful,3,4,8,0,5,Android,treatment
+5d2b08784588590018cf70bb,55,Male,White/White British,Retired,Bachelor's degree or equivalent,No,Yes,Quite successful,0,2,6,0,6,iOS,treatment
+62da562ad9942a440f6986c9,41,Male,White/White British,Working full-time,"Apprenticeship, higher education diploma or equivalent",No,No,Quite successful,6,2,7,2,2,Android,treatment
+595ceea8dd044900012ce64a,46,Female,White/White British,Working full-time,GCSE or equivalent,Yes,No,Quite successful,5,0,8,1,6,Android,treatment
+5aafb6f2e1546900019b0772,56,Male,White/White British,Working full-time,Postgraduate degree or equivalent,No,No,Neither successful nor unsuccessful,6,6,8,0,7,iOS,treatment
+60bceb1dcefc0afe67041489,48,Male,White/White British,Working full-time,PhD or equivalent,No,No,Quite successful,2,4,7,2,6,Android,treatment
+5ef647ec3ce68a1178780f5a,45,Female,White/White British,Unemployed,A Level or equivalent,No,Yes,Quite successful,7,3,8,1,4,Android,treatment
+5ef647ec3ce68a1178780f5a,45,Female,White/White British,Unemployed,A Level or equivalent,No,Yes,Quite successful,6,3,8,1,4,Android,treatment
+5ef647ec3ce68a1178780f5a,45,Female,White/White British,Unemployed,A Level or equivalent,No,Yes,Quite successful,5,3,7,0,4,Android,treatment
+64137087a26baa97a1348ce7,21,Male,White/White British,Student,GCSE or equivalent,Yes,No,Neither successful nor unsuccessful,3,4,7,1,7,Android,treatment
+56b0e4d16399f9000ad8d48f,38,Female,Any other ethnic group,Unemployed,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,6,1,8,2,6,iOS,treatment
+6154918f83e8ca861b23ea04,53,Female,White/White British,Working full-time,GCSE or equivalent,No,No,Neither successful nor unsuccessful,3,2,6,1,5,iOS,treatment
+63d13d214a2a7a3987f88f5b,31,Female,Asian/Asian British,Working full-time,Postgraduate degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,3,2,5,2,5,iOS,treatment
+5c93de86cf602b000170c25d,37,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",Postgraduate degree or equivalent,Yes,Yes,Quite successful,3,5,6,1,6,Android,treatment
+612a87998958706392797405,34,Female,White/White British,Working part-time,Postgraduate degree or equivalent,No,No,Quite successful,5,2,8,0,3,Android,treatment
+5f778d553167a12eae0e1c00,30,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,No,Quite successful,7,4,8,1,7,Android,treatment
+62b1eaacbc6e41266c8c35f1,29,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,3,2,6,0,0,iOS,treatment
+59e675a6c0d35a00012951ce,48,Female,White/White British,Working part-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,1,1,5,0,1,iOS,treatment
+5a0a0b3afe645f0001e9f296,48,Female,White/White British,Working full-time,"Apprenticeship, higher education diploma or equivalent",No,No,Neither successful nor unsuccessful,2,2,5,5,5,Android,treatment
+5a0a0b3afe645f0001e9f296,48,Female,White/White British,Working full-time,"Apprenticeship, higher education diploma or equivalent",No,No,Neither successful nor unsuccessful,2,2,5,2,5,Android,treatment
+59839cb9554956000142d95f,51,Female,White/White British,Unable to work due to disability or any other reason,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,8,5,8,2,2,iOS,treatment
+6160c8f657e3c4094b01614a,35,Male,White/White British,Working part-time,A Level or equivalent,Yes,Yes,Quite successful,4,3,5,2,4,iOS,treatment
+5ede01a612a7d6000bf2316f,26,Female,White/White British,Unemployed,"Apprenticeship, higher education diploma or equivalent",Yes,No,Quite successful,0,2,5,2,3,iOS,treatment
+63d410b23af251fc009202cb,40,Male,White/White British,Working full-time,A Level or equivalent,No,No,Quite successful,2,2,5,0,2,iOS,treatment
+5ad3a3824d061300011b2164,43,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,1,2,7,0,5,Android,treatment
+5ad3a3824d061300011b2164,43,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,1,2,7,0,6,Android,treatment
+582086da97b5100001b9b830,35,Female,White/White British,Working part-time,GCSE or equivalent,No,No,Quite successful,2,1,6,4,4,iOS,treatment
+5efcf0c805671e11376ae93f,35,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,1,1,2,1,1,iOS,treatment
+622e73ee8e552144c702f353,55,Female,White/White British,Working full-time,Postgraduate degree or equivalent,No,Yes,Very unsuccessful,2,1,7,0,6,iOS,treatment
+62a3b97d41ae082b602e815b,30,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,6,6,7,2,7,iOS,treatment
+5f28196752b92a0a83d7a9db,31,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,5,4,5,7,3,Android,treatment
+5f075086646b9a32a8238dba,28,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason","Apprenticeship, higher education diploma or equivalent",No,No,Neither successful nor unsuccessful,6,8,8,0,8,iOS,treatment
+5adec594e0feeb0001cacf00,52,Male,White/White British,Working full-time,A Level or equivalent,Yes,No,Neither successful nor unsuccessful,1,1,6,1,6,iOS,treatment
+5edca29654fe059801608fc0,38,Female,White/White British,Working part-time,A Level or equivalent,No,No,Quite successful,6,7,8,6,8,iOS,treatment
+5cb8d06a75c0e10001540418,41,Male,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,3,2,7,0,7,iOS,treatment
+5d82034b49f7b600197e5315,26,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,6,2,7,8,7,Android,treatment
+5d459cd66f084f00151bd226,25,Male,White/White British,Working full-time,Postgraduate degree or equivalent,Yes,No,Quite unsuccessful,3,5,5,6,6,iOS,treatment
+63dff8bf03e29837eef8a379,49,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",Postgraduate degree or equivalent,No,Yes,Neither successful nor unsuccessful,2,0,3,0,3,iOS,treatment
+6400d919945d23676a68b781,27,Female,White/White British,Working full-time,Postgraduate degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,5,4,7,6,6,iOS,treatment
+6400d919945d23676a68b781,27,Female,White/White British,Working full-time,Postgraduate degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,5,5,7,6,6,iOS,treatment
+57027b6768c641000e0c894a,41,Female,White/White British,Working part-time,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,5,0,7,1,1,Android,treatment
+57027b6768c641000e0c894a,41,Female,White/White British,Working part-time,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,5,0,7,0,1,Android,treatment
+5f09068244f84c18faaa74bc,22,Male,White/White British,Unemployed,Postgraduate degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,2,3,3,3,2,iOS,treatment
+63ea42504d477a5fc21236d4,29,Male,Asian/Asian British,Working full-time,Postgraduate degree or equivalent,Yes,No,Neither successful nor unsuccessful,6,4,4,5,4,Android,treatment
+63ea42504d477a5fc21236d4,29,Male,Asian/Asian British,Working full-time,Postgraduate degree or equivalent,Yes,No,Neither successful nor unsuccessful,6,4,7,5,4,Android,treatment
+5eb9697b651aca0436adfe9d,34,Female,White/White British,Working full-time,GCSE or equivalent,No,No,Quite successful,2,0,2,0,0,Android,treatment
+62c7e2035db496124cf69b56,45,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,1,4,4,0,3,iOS,treatment
+63cff1f3f6837928721fe2ef,25,Male,Asian/Asian British,Student,Bachelor's degree or equivalent,No,No,Quite successful,5,2,5,0,3,Android,treatment
+5c42f9388bb6fd000163d1b4,45,Male,White/White British,Working part-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,3,1,6,4,5,Android,treatment
+63d140059a1a559c554e7e68,41,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,1,0,4,0,0,Android,treatment
+613f1d6420141eefc3e5f1b0,43,Female,White/White British,Unemployed,Bachelor's degree or equivalent,Yes,Yes,Quite successful,8,3,5,2,6,Android,treatment
+5f85f0cab3f4e20ebf578203,31,Male,Black/Black British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,2,2,4,3,6,Android,treatment
+5d990479ab3e03001624c314,35,Female,White/White British,Working part-time,Bachelor's degree or equivalent,No,Yes,Neither successful nor unsuccessful,2,0,6,0,2,Android,treatment
+56c393c495cf7f000b956b25,30,Male,Black/Black British,Working full-time,Bachelor's degree or equivalent,No,Yes,Quite unsuccessful,6,5,6,7,6,Android,treatment
+636928ef51cdaf360bebba1e,49,Male,White/White British,Unemployed,"Apprenticeship, higher education diploma or equivalent",No,Yes,Neither successful nor unsuccessful,8,5,6,3,5,Android,treatment
+5ec5b2f06ec5296104b51897,33,Male,Black/Black British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,0,1,6,0,6,Android,treatment
+606dc9d8b666d8ce1dc6167b,25,Female,White/White British,Student,Bachelor's degree or equivalent,Yes,Yes,Quite successful,3,1,3,0,1,Android,treatment
+5f1c62b6554a0f4f129c75fd,20,Female,Asian/Asian British,Student,Bachelor's degree or equivalent,No,No,Quite successful,4,5,6,2,4,iOS,treatment
+62b055a21e169809861b173d,32,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,0,0,3,0,0,iOS,treatment
+63e812a9bbba876a34f1a8b3,77,Female,White/White British,Retired,Postgraduate degree or equivalent,No,Yes,Neither successful nor unsuccessful,3,3,6,2,6,Android,treatment
+5c462f70f5bbb70001b2f902,39,Female,White/White British,Working part-time,Postgraduate degree or equivalent,No,No,Quite unsuccessful,2,2,6,3,1,iOS,treatment
+62b5fea64b239d91783414ff,27,Male,Black/Black British,Working full-time,A Level or equivalent,Yes,No,Neither successful nor unsuccessful,4,3,5,2,6,Android,treatment
+5718a9c4dd9ef10013df01f0,37,Female,White/White British,Working full-time,A Level or equivalent,No,No,Quite successful,4,4,8,8,6,Android,treatment
+5718a9c4dd9ef10013df01f0,37,Female,White/White British,Working full-time,A Level or equivalent,No,No,Quite successful,4,4,8,6,7,Android,treatment
+5d791761790bf400014122ec,37,Female,White/White British,Working part-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,4,3,6,2,3,Android,treatment
+6271219c2f0fd73e4d217a77,32,Male,Black/Black British,Working part-time,Bachelor's degree or equivalent,Yes,No,Neither successful nor unsuccessful,5,2,3,0,3,Android,treatment
+5c322f84508b7a0001fcb70d,40,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,5,2,4,1,1,Android,treatment
+5c322f84508b7a0001fcb70d,40,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,5,2,4,1,1,Android,treatment
+5f19675f002f9a01e273dc57,52,Female,White/White British,Working part-time,Postgraduate degree or equivalent,No,No,Neither successful nor unsuccessful,5,6,6,1,6,iOS,treatment
+5876428ceae9d5000140eb16,54,Female,White/White British,Working part-time,"Apprenticeship, higher education diploma or equivalent",No,No,Quite unsuccessful,4,4,7,1,4,Android,treatment
+6400ddd5862feacb5794750b,40,Male,White/White British,Working full-time,"Apprenticeship, higher education diploma or equivalent",Yes,No,Neither successful nor unsuccessful,4,2,2,6,3,iOS,treatment
+623478b74666adc4ae9be6ab,32,Male,White/White British,Working full-time,PhD or equivalent,No,Yes,Quite successful,3,0,6,0,6,Android,treatment
+59f392ef9618dc0001d33a58,40,Female,White/White British,Working part-time,A Level or equivalent,No,Yes,Quite successful,6,1,7,1,6,Android,treatment
+59f392ef9618dc0001d33a58,40,Female,White/White British,Working part-time,A Level or equivalent,No,Yes,Quite successful,5,2,7,3,6,Android,treatment
+63718368eb248cc9835e70ff,59,Female,White/White British,Working part-time,"Apprenticeship, higher education diploma or equivalent",No,No,Quite successful,4,2,7,1,6,iOS,treatment
+60de4cc94dfda4d9e1948e6d,20,Female,White/White British,Student,A Level or equivalent,Yes,Yes,Quite unsuccessful,2,4,5,2,5,iOS,treatment
+5c0873675b32d500012e3f2c,61,Female,White/White British,Unemployed,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,6,1,5,0,0,Android,treatment
+5c0873675b32d500012e3f2c,61,Female,White/White British,Unemployed,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,6,1,5,0,0,Android,treatment
+5c0873675b32d500012e3f2c,61,Female,White/White British,Unemployed,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,6,1,5,0,0,Android,treatment
+5c0873675b32d500012e3f2c,61,Female,White/White British,Unemployed,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,6,1,5,0,0,Android,treatment
+5360c37cfdf99b02ccc08fcb,30,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,3,6,7,0,2,Android,treatment
+5d5317c8f780730018f2c748,37,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,Yes,Neither successful nor unsuccessful,6,6,6,6,6,Android,treatment
+5d5317c8f780730018f2c748,37,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,Yes,Neither successful nor unsuccessful,6,6,6,6,5,Android,treatment
+641379405684937e6fad9f1b,33,Female,White/White British,Working full-time,A Level or equivalent,No,No,Quite successful,3,3,5,2,5,iOS,treatment
+56c6f9efb0b7a1000c5d12d7,38,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,4,5,7,2,7,iOS,treatment
+5f0d962b96a8fa000871c68c,40,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason","Apprenticeship, higher education diploma or equivalent",No,No,Neither successful nor unsuccessful,1,0,5,0,2,iOS,treatment
+62b182ba39468032223841bb,45,Female,White/White British,Working part-time,Bachelor's degree or equivalent,No,Yes,Quite successful,3,2,5,1,3,Android,treatment
+595e4bef84f571000111ca04,50,Female,White/White British,Unemployed,Bachelor's degree or equivalent,No,No,Quite successful,4,2,5,1,4,Android,treatment
+5ecb6acd10d2c36e6124c9bd,37,Female,White/White British,Working full-time,Postgraduate degree or equivalent,Yes,No,Quite successful,3,5,4,1,3,Android,treatment
+5d442839a8faa30001131e8a,49,Male,White/White British,Unemployed,No quailfications,No,Yes,Neither successful nor unsuccessful,5,6,6,6,8,Android,treatment
+5ce9b0e4be5a6b00163f6870,56,Male,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Quite successful,5,4,7,1,7,iOS,treatment
+5f0874db34894f07bd04f436,43,Male,Any other ethnic group,Unemployed,Postgraduate degree or equivalent,No,No,Quite successful,5,4,8,5,8,iOS,treatment
+5c897696146e370001e063c9,42,Male,White/White British,Working full-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,3,6,6,2,3,Android,treatment
+5cf3ce21392ca30016117ebb,52,Female,White/White British,Unemployed,GCSE or equivalent,No,No,Quite successful,7,0,6,0,0,Android,treatment
+5cf3ce21392ca30016117ebb,52,Female,White/White British,Unemployed,GCSE or equivalent,No,No,Neither successful nor unsuccessful,6,0,5,0,0,Android,treatment
+5cf3ce21392ca30016117ebb,52,Female,White/White British,Unemployed,GCSE or equivalent,No,No,Neither successful nor unsuccessful,6,0,6,0,0,Android,treatment
+5c4765349afd7b000196f770,29,Female,White/White British,Unemployed,Bachelor's degree or equivalent,No,Yes,Quite successful,8,5,8,2,2,Android,treatment
+5bb7a2f927fb5000013cb0e6,50,Female,White/White British,Working full-time,GCSE or equivalent,No,No,Quite unsuccessful,1,1,6,0,4,iOS,treatment
+5cf03df5f8188000013126aa,39,Female,Mixed/Multiple ethnic groups,Working part-time,"Apprenticeship, higher education diploma or equivalent",Yes,Yes,Quite successful,7,6,8,6,5,iOS,treatment
+606ec7f98cb8b08a1c7620e0,49,Female,White/White British,Working full-time,Postgraduate degree or equivalent,Yes,Yes,Quite successful,2,0,5,2,6,Android,treatment
+5c012e180a73f700012f3c58,25,Female,Mixed/Multiple ethnic groups,Working full-time,Bachelor's degree or equivalent,No,Yes,Neither successful nor unsuccessful,1,2,3,0,5,Android,treatment
+5c012e180a73f700012f3c58,25,Female,Mixed/Multiple ethnic groups,Working full-time,Bachelor's degree or equivalent,No,Yes,Neither successful nor unsuccessful,1,2,3,0,5,Android,treatment
+5c012e180a73f700012f3c58,25,Female,Mixed/Multiple ethnic groups,Working full-time,Bachelor's degree or equivalent,No,Yes,Neither successful nor unsuccessful,0,1,2,0,4,Android,treatment
+5c012e180a73f700012f3c58,25,Female,Mixed/Multiple ethnic groups,Working full-time,Bachelor's degree or equivalent,No,Yes,Neither successful nor unsuccessful,1,2,3,0,5,Android,treatment
+5d514a73f20feb00160b5e0e,34,Male,Asian/Asian British,Working full-time,Bachelor's degree or equivalent,Yes,No,Quite successful,6,4,7,5,7,Android,treatment
+58209f4785e40e00012f2a7d,31,Male,White/White British,Working part-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,5,3,7,3,6,Android,treatment
+5e1e26bc677d6f1913ec0111,56,Male,White/White British,Unable to work due to disability or any other reason,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,8,6,8,6,8,Android,treatment
+61601f0ddc31a716116888f1,36,Female,White/White British,Working full-time,GCSE or equivalent,No,No,Quite unsuccessful,4,0,8,6,4,iOS,treatment
+63d190d52bb71e0e81d868f2,33,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,2,3,4,1,3,Android,treatment
+5b09360c2971540001e3e248,43,Male,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,No,Neither successful nor unsuccessful,0,1,3,1,3,Android,treatment
+5b09360c2971540001e3e248,43,Male,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,No,Neither successful nor unsuccessful,0,1,3,1,3,Android,treatment
+5d1b9f1b4cebc80017c1d9ca,35,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,3,1,2,1,2,Android,treatment
+62a1fd297768ca1c93288d11,35,Male,White/White British,Working full-time,Postgraduate degree or equivalent,No,Yes,Neither successful nor unsuccessful,5,3,2,2,2,Android,treatment
+56fbbcd14aaa50000da05e80,37,Female,Black/Black British,Working full-time,A Level or equivalent,No,No,Quite unsuccessful,0,1,6,2,6,iOS,treatment
+57b89a091e1cd400013e46fd,60,Female,White/White British,Student,Bachelor's degree or equivalent,No,Yes,Quite unsuccessful,4,1,6,1,7,Android,treatment
+5d8cef3c28e183001a335ab0,33,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,Yes,Quite unsuccessful,5,1,6,0,3,iOS,treatment
+6307d62f2d8eece6282a3f6e,43,Female,White/White British,Unable to work due to disability or any other reason,A Level or equivalent,No,No,Quite successful,6,5,7,2,7,iOS,treatment
+5d1905fe4d7eea00170c3f28,49,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",Postgraduate degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,5,3,8,0,6,iOS,treatment
+5ba151aaa9e7be000135f08f,37,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Quite successful,2,5,8,5,6,iOS,treatment
+5cbf968cac918a00159337e8,25,Female,White/White British,Working full-time,Postgraduate degree or equivalent,Yes,Yes,Quite successful,5,5,5,0,7,iOS,treatment
+5b96b497169b86000125198e,50,Female,White/White British,Working part-time,A Level or equivalent,No,Yes,Neither successful nor unsuccessful,6,5,8,2,1,iOS,treatment
+613791ef07e699be4ebd53f8,53,Male,White/White British,Unemployed,Bachelor's degree or equivalent,No,Yes,Quite unsuccessful,2,5,8,0,8,iOS,treatment
+5b89ad4819110c0001eb707c,35,Female,White/White British,Working full-time,Postgraduate degree or equivalent,Yes,No,Quite unsuccessful,2,4,6,1,4,iOS,treatment
+62d81f26161631255f0d36bd,19,Male,White/White British,Student,A Level or equivalent,No,No,Quite successful,2,3,5,1,4,iOS,treatment
+5e3f63305ed1321be26ea5fe,28,Female,White/White British,Unable to work due to disability or any other reason,"Apprenticeship, higher education diploma or equivalent",No,Yes,Neither successful nor unsuccessful,6,2,1,0,0,Android,treatment
+5d5e4ae367962a00151b58f6,35,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Quite unsuccessful,5,7,7,7,5,Android,treatment
+60768467a4f8fb1d215ff60c,33,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,5,6,7,7,6,iOS,treatment
+570ffae3736f6a00125577c5,40,Female,White/White British,Working part-time,"Apprenticeship, higher education diploma or equivalent",No,Yes,Neither successful nor unsuccessful,6,6,6,4,6,Android,treatment
+6346aa206a094aebaddadf02,32,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,5,1,3,0,3,iOS,treatment
+578163a5c6144900014a0d21,26,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,2,4,7,5,7,Android,treatment
+5f2afec0781f2848ac688140,41,Female,Asian/Asian British,Unable to work due to disability or any other reason,GCSE or equivalent,Yes,No,Quite successful,5,4,7,5,3,iOS,treatment
+5f99104474aa880009b64318,47,Female,White/White British,Unable to work due to disability or any other reason,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,3,4,4,4,4,Android,treatment
+5f99104474aa880009b64318,47,Female,White/White British,Unable to work due to disability or any other reason,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,2,3,4,4,4,Android,treatment
+6103ecec19120bbb47800858,50,Male,White/White British,Working full-time,"Apprenticeship, higher education diploma or equivalent",No,No,Neither successful nor unsuccessful,0,0,8,0,2,Android,treatment
+5f76e2c2c75fa118deba7f46,42,Male,Any other ethnic group,Working full-time,Postgraduate degree or equivalent,No,No,Neither successful nor unsuccessful,3,3,7,2,6,Android,treatment
+612faedae9ff56b775e3cee5,32,Female,Mixed/Multiple ethnic groups,"Temporarily away from work due to illness, maternity leave, or another reason",GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,4,6,8,1,8,iOS,treatment
+56b8ad1be1d0a2000c154093,60,Female,White/White British,Working part-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,6,5,8,4,8,Android,treatment
+628a119d0b74d2b456ce5201,27,Female,White/White British,Working full-time,Postgraduate degree or equivalent,No,No,Quite successful,1,1,5,0,7,Android,treatment
+628a119d0b74d2b456ce5201,27,Female,White/White British,Working full-time,Postgraduate degree or equivalent,No,No,Quite successful,1,1,5,0,7,Android,treatment
+5e5521580ee1b951df544c3c,43,Male,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Quite successful,5,0,5,0,5,,control
+581ccd016c73180001fa5b2a,44,Male,Asian/Asian British,Working full-time,Bachelor's degree or equivalent,No,No,Quite unsuccessful,1,1,4,0,6,,control
+63ea4139b3e58747071301a1,31,Male,White/White British,Working full-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,1,2,5,0,1,,control
+5f0f6811a0ed4a11dbc57b79,45,Male,Asian/Asian British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,5,6,6,7,7,,control
+5b2240df023fe3000150533f,47,Male,White/White British,Working part-time,Bachelor's degree or equivalent,No,Yes,Quite unsuccessful,2,2,6,2,4,,control
+6414486d4baccf7f406f7d9e,30,Female,White/White British,Unable to work due to disability or any other reason,Bachelor's degree or equivalent,Yes,Yes,Quite successful,0,1,4,2,3,,control
+5e31a1526ef37a1879a94441,57,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,0,1,3,0,3,,control
+5b97f2375612b30001acc4c9,41,Female,White/White British,Working part-time,A Level or equivalent,No,No,Quite successful,6,2,7,2,2,,control
+5a75b131eea3d300016ddc70,43,Male,Mixed/Multiple ethnic groups,Working part-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,1,0,4,0,2,,control
+62e02c96140489fcd123e187,55,Female,White/White British,Working part-time,Bachelor's degree or equivalent,No,Yes,Quite successful,3,5,5,3,4,,control
+5a95a9c135237b000112615f,54,Female,White/White British,Unable to work due to disability or any other reason,GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,8,4,7,4,6,,control
+63ea497522ab8dac66f07e6d,26,Male,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",Bachelor's degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,4,4,7,2,7,,control
+63d427e00eb0a8350d4c50df,24,Male,Mixed/Multiple ethnic groups,Working full-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,5,2,6,3,6,,control
+5f450738ab827a05e739ef40,29,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,6,6,8,4,8,,control
+5a622a7f35f26b0001490a5f,38,Female,White/White British,Working full-time,"Apprenticeship, higher education diploma or equivalent",No,Yes,Neither successful nor unsuccessful,2,5,8,7,6,,control
+60d9a0d345504b76c6fb29f6,30,Female,White/White British,Student,Bachelor's degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,5,7,4,1,4,,control
+63d256a2e69c3a1ede98e0fc,37,Male,White/White British,Working part-time,PhD or equivalent,No,No,Quite unsuccessful,7,1,6,0,3,,control
+564674d3d01e6b00147276a1,53,Male,Asian/Asian British,Working part-time,Bachelor's degree or equivalent,No,Yes,Neither successful nor unsuccessful,4,3,2,1,6,,control
+63d153292ab8a7e4066fb52a,24,Male,Mixed/Multiple ethnic groups,Unemployed,Bachelor's degree or equivalent,Yes,Yes,Quite successful,6,2,7,1,3,,control
+62b07159ba623a4beb4012e0,26,Male,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,No,Very successful,5,5,6,5,5,,control
+56a8bb427f2472000b9522f6,36,Female,White/White British,Working part-time,Bachelor's degree or equivalent,No,Yes,Neither successful nor unsuccessful,7,1,8,0,7,,control
+57fde8979c39b3000179e347,57,Female,White/White British,Unemployed,GCSE or equivalent,No,Yes,Quite unsuccessful,7,5,7,1,2,,control
+63ecfe343c4d295df436a487,26,Female,White/White British,Working part-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,4,5,7,7,2,,control
+638e2eed82fa613f2140ba13,61,Female,White/White British,Working part-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,4,6,6,5,3,,control
+5ca48653ed23650001328d9d,42,Female,White/White British,Working full-time,Post-graduate degree or equivalent,Yes,Yes,Quite unsuccessful,2,1,7,3,2,,control
+5c91fad394f7e600172f9d4a,45,Female,White/White British,Student,A Level or equivalent,Yes,No,Quite successful,4,2,8,0,6,,control
+636675b4dd6bb79382d46c2b,32,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,5,3,6,6,6,,control
+6146f7b903db610d4cf373e6,32,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",A Level or equivalent,No,No,Quite unsuccessful,2,5,6,3,5,,control
+5b2659e78ecf3f0001617cbd,47,Female,White/White British,Working part-time,Bachelor's degree or equivalent,Yes,Yes,Quite successful,6,5,5,2,5,,control
+5c3b1e9a4b1ed90001babf9e,44,Female,White/White British,Working part-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,4,2,4,1,3,,control
+63d42baf9594b69453f61e91,27,Male,White/White British,Working full-time,A Level or equivalent,No,No,Quite successful,1,1,8,0,8,,control
+61647688d6592403e31aa473,43,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,4,5,6,1,5,,control
+63de43562f126da64eb4954d,52,Female,White/White British,Working full-time,Post-graduate degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,4,5,7,2,7,,control
+63dbe76cbc72cdb0f3e93414,39,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Quite successful,5,5,6,0,6,,control
+5ea804463634051fba362769,29,Female,White/White British,Student,Post-graduate degree or equivalent,No,Yes,Neither successful nor unsuccessful,3,2,5,5,3,,control
+63e52c5f3f35059ca0272e19,41,Male,White/White British,Working full-time,Post-graduate degree or equivalent,No,No,Quite successful,1,1,3,1,2,,control
+60e05b786b9d62ed10982f47,50,Female,White/White British,Working part-time,A Level or equivalent,No,Yes,Quite successful,4,1,7,2,2,,control
+60b8fb929701cb52b39796aa,21,Male,Asian/Asian British,Student,A Level or equivalent,Yes,No,Neither successful nor unsuccessful,2,2,6,2,6,,control
+5c84d2370d4ac0001196cde4,44,Female,White/White British,Working full-time,"Apprenticeship, higher education diploma or equivalent",No,No,Neither successful nor unsuccessful,5,5,7,1,7,,control
+6027cc78c597e0049f3e455d,55,Male,White/White British,Retired,Bachelor's degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,8,4,8,5,6,,control
+5c5a98c42032f30001ba94fd,29,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Very successful,2,1,1,2,3,,control
+63e530a8c23ce5fc5f65f1da,19,Female,White/White British,Working part-time,A Level or equivalent,Yes,Yes,Quite unsuccessful,6,1,7,1,5,,control
+5d1290103b20b0000102e8e3,38,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,No,Quite successful,5,3,5,3,5,,control
+5be742980bedce00010bcf31,39,Male,White/White British,Working part-time,GCSE or equivalent,No,No,Neither successful nor unsuccessful,3,0,7,0,2,,control
+5f8453fff0d4290809876070,32,Female,White/White British,Working part-time,Bachelor's degree or equivalent,No,No,Quite unsuccessful,8,7,8,8,7,,control
+577a930f7ba34c00010c8e5e,55,Female,White/White British,Unemployed,GCSE or equivalent,No,No,Quite successful,0,4,0,0,0,,control
+6044ea51709c7658c749c64d,38,Female,White/White British,Working part-time,GCSE or equivalent,No,Yes,Quite successful,3,3,5,0,1,,control
+63ee7fdc7353888045333f01,18,Male,White/White British,Working part-time,GCSE or equivalent,No,No,Neither successful nor unsuccessful,6,2,8,0,6,,control
+62b2080f8f89f2f15c47d9ba,53,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,0,0,4,0,1,,control
+63654bbd9fba7764c698ee95,42,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,6,3,6,7,7,,control
+5c3f9210c2d0b700017cf4d7,43,Male,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,No,Neither successful nor unsuccessful,5,4,5,3,5,,control
+63e5282cfb912bf4cb2f2d33,47,Male,White/White British,Working full-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,1,0,6,0,2,,control
+6290de7fb740c5593c1c37c7,26,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,6,6,8,6,8,,control
+5dcaca3084116a7965ef1fd4,30,Female,White/White British,Unemployed,"Apprenticeship, higher education diploma or equivalent",No,Yes,Neither successful nor unsuccessful,6,4,4,7,4,,control
+60170184b3fe5f1ee9383f0f,36,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",Bachelor's degree or equivalent,No,Yes,Quite successful,3,5,6,2,5,,control
+56a930c711926500056e6eed,38,Female,White/White British,Working full-time,Post-graduate degree or equivalent,No,No,Neither successful nor unsuccessful,4,0,5,0,2,,control
+601035bc24cb8f2c108b3e48,34,Female,White/White British,Working full-time,A Level or equivalent,No,Yes,Neither successful nor unsuccessful,6,6,7,1,3,,control
+6346ad9666e0c7892116eef5,40,Male,Asian/Asian British,Working full-time,Bachelor's degree or equivalent,Yes,No,Quite successful,2,1,6,0,1,,control
+60b2785e793387fa22524fce,26,Female,White/White British,Working full-time,GCSE or equivalent,No,Yes,Quite successful,2,4,6,3,6,,control
+5ea0110e8df7fa0008956a0a,53,Male,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",GCSE or equivalent,No,Yes,Neither successful nor unsuccessful,8,6,8,7,8,,control
+58a95ef0bb9e0f0001acaa8b,51,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",Bachelor's degree or equivalent,No,No,Quite successful,5,1,5,0,2,,control
+5a051341ff266c0001d1f915,36,Female,White/White British,Unemployed,GCSE or equivalent,No,Yes,Quite successful,6,8,7,2,7,,control
+5c3db5a6ea50eb0001759fc4,48,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,6,7,8,1,7,,control
+62893fa227242581fa93d6a1,29,Female,White/White British,Working part-time,"Apprenticeship, higher education diploma or equivalent",No,No,Neither successful nor unsuccessful,6,6,7,5,7,,control
+5e7fa0e918b10804bb87eb63,51,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,3,1,6,1,5,,control
+5a8f2a691904200001565d1d,36,Female,White/White British,Working part-time,"Apprenticeship, higher education diploma or equivalent",Yes,Yes,Quite successful,5,5,7,5,7,,control
+5bdef4a209e1b40001df58cf,34,Female,White/White British,Working part-time,Bachelor's degree or equivalent,Yes,Yes,Quite successful,6,1,2,1,1,,control
+62fb792c089c2b4a4ec4b48b,35,Female,White/White British,Working full-time,A Level or equivalent,No,No,Quite successful,3,4,3,4,4,,control
+5e5e86c4a234251abddcd29d,71,Female,White/White British,Working part-time,PhD or equivalent,No,No,Neither successful nor unsuccessful,5,4,6,1,6,,control
+5dfe9f9e19232db3171c8341,33,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",Bachelor's degree or equivalent,Yes,No,Quite successful,3,3,6,2,6,,control
+5c18e589d66c940001f97e81,55,Female,White/White British,Working full-time,GCSE or equivalent,No,No,Neither successful nor unsuccessful,2,4,1,3,0,,control
+63d42692a6ffa5e1445872a6,32,Male,Asian/Asian British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,1,1,7,2,4,,control
+5c1575e62a407b0001ff2a4c,35,Male,White/White British,Working full-time,A Level or equivalent,No,Yes,Quite unsuccessful,3,2,6,5,6,,control
+614e43c148febeb17c93e998,37,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,Yes,Quite successful,3,1,3,0,2,,control
+5d0e0c9c312297001a37d0ca,22,Female,White/White British,Working part-time,A Level or equivalent,Yes,Yes,Quite successful,7,7,6,5,8,,control
+5d4c06c6a8d9fb001a1470d5,36,Female,White/White British,Unemployed,GCSE or equivalent,No,No,Neither successful nor unsuccessful,6,3,6,3,4,,control
+5a3026823eff6600016f2807,24,Female,Any other ethnic group,Student,Bachelor's degree or equivalent,No,No,Quite unsuccessful,2,1,7,4,7,,control
+62b4549c1274c2a12d600182,23,Male,White/White British,Unemployed,Post-graduate degree or equivalent,Yes,Yes,Quite successful,7,3,6,3,7,,control
+62fbe0847bebdb10fff2494c,34,Male,White/White British,Working full-time,A Level or equivalent,No,No,Quite unsuccessful,4,6,6,3,5,,control
+5a3ad6ba2f3c2500018bc4e4,33,Female,White/White British,Unemployed,A Level or equivalent,No,No,Neither successful nor unsuccessful,5,1,6,1,4,,control
+62b1fa2bf698dc051bfca2d4,40,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",Post-graduate degree or equivalent,No,No,Quite successful,3,6,5,4,4,,control
+55bdcb08fdf99b7c544b9d0e,42,Male,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Quite successful,0,0,6,6,4,,control
+5d77b52ae3a8220001553b83,41,Male,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,No,Neither successful nor unsuccessful,3,2,7,1,5,,control
+60f84b82661faf6c4a0c56a5,30,Female,White/White British,Working full-time,Post-graduate degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,6,5,7,3,4,,control
+6104f8978020bd0eaa8058dc,25,Female,White/White British,Unemployed,No quailfications,Yes,Yes,Quite successful,8,5,8,6,5,,control
+63dd0296c917bf02b8a6fdb3,35,Female,White/White British,Unable to work due to disability or any other reason,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,2,0,6,0,0,,control
+5d532bb9d103e90018c69203,34,Male,White/White British,Working full-time,"Apprenticeship, higher education diploma or equivalent",No,No,Neither successful nor unsuccessful,4,3,7,0,5,,control
+5b161c96d282ff00015c4bb6,41,Female,Black/Black British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,0,1,3,0,3,,control
+63ea46a6a9097ada514413a0,28,Male,Any other ethnic group,Working full-time,GCSE or equivalent,Yes,No,Neither successful nor unsuccessful,1,0,2,0,0,,control
+6140bf6523a8f20a2ea1e417,50,Male,White/White British,Working full-time,GCSE or equivalent,Yes,No,Quite successful,0,0,3,0,3,,control
+616ace670cc9be4c6cc04845,62,Female,White/White British,Unemployed,GCSE or equivalent,No,No,Neither successful nor unsuccessful,6,1,8,0,6,,control
+601867fe8e5c370dbff4fcef,24,Female,White/White British,Unable to work due to disability or any other reason,Bachelor's degree or equivalent,No,Yes,Neither successful nor unsuccessful,8,3,8,2,8,,control
+62b22fafe8226b590b87284e,51,Female,White/White British,Working full-time,"Apprenticeship, higher education diploma or equivalent",Yes,Yes,Neither successful nor unsuccessful,5,2,6,0,3,,control
+5c98db753df5fc0016e3baed,41,Female,White/White British,Unemployed,A Level or equivalent,No,No,Neither successful nor unsuccessful,8,6,8,2,8,,control
+56aa2ab9402d62000c7096f2,55,Female,White/White British,Working part-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,5,1,8,1,8,,control
+5d56add07d795e001788bb04,40,Female,White/White British,Working full-time,Post-graduate degree or equivalent,No,Yes,Neither successful nor unsuccessful,7,7,6,1,7,,control
+5e15f834a6eb60bd83bebe78,37,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Quite successful,3,5,5,1,2,,control
+5e61f36dc7061b0c396928f2,40,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,No,Quite successful,1,2,7,1,1,,control
+5ebc64bf78ebdb082563937b,37,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Quite successful,4,3,4,3,5,,control
+6004acf12facd1642ea69a4f,33,Female,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Quite unsuccessful,3,0,6,0,4,,control
+5ccb133b347cb5001b4770b6,37,Female,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,3,2,2,1,2,,control
+5f1e3d27e7d27c3b651d5baf,51,Female,White/White British,Working part-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,6,7,8,5,6,,control
+5ab782fe47a9f70001539d00,57,Male,White/White British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,2,0,4,0,2,,control
+63d40a74a40ea367fbcfa34e,32,Female,White/White British,Unemployed,Bachelor's degree or equivalent,No,No,Quite unsuccessful,1,1,1,0,1,,control
+59646f5198cf77000106feb1,46,Female,White/White British,Working full-time,Post-graduate degree or equivalent,Yes,Yes,Quite successful,6,8,8,8,7,,control
+59a2ad199b845f0001ec1e9e,43,Female,White/White British,Unemployed,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,2,3,4,4,4,,control
+6414253d3bddbb89b2190e30,30,Male,White/White British,Working full-time,Bachelor's degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,3,4,3,0,2,,control
+59b7b72e11212f0001cd0f15,29,Female,White/White British,Unemployed,A Level or equivalent,No,Yes,Very unsuccessful,7,3,6,2,6,,control
+63d581babfbf05d4c83027f6,44,Female,White/White British,Working full-time,"Apprenticeship, higher education diploma or equivalent",No,No,Neither successful nor unsuccessful,3,4,3,5,4,,control
+5e78f81933a7cf0526edb697,27,Female,White/White British,Working part-time,A Level or equivalent,Yes,Yes,Neither successful nor unsuccessful,3,1,5,0,1,,control
+5ede80a7316c240fc78b6f6a,54,Female,White/White British,Working full-time,A Level or equivalent,No,No,Neither successful nor unsuccessful,5,1,7,1,7,,control
+63d7f17bc657e6dc9e481a9a,26,Male,White/White British,Working full-time,A Level or equivalent,Yes,No,Neither successful nor unsuccessful,2,3,6,5,4,,control
+5a67676a35f26b000149689d,28,Female,White/White British,Working full-time,Post-graduate degree or equivalent,Yes,Yes,Quite successful,8,4,8,1,7,,control
+5f7366fe5b5261081e3d6fb8,24,Female,White/White British,Working full-time,Post-graduate degree or equivalent,No,No,Quite successful,4,5,5,5,3,,control
+5cf200393d4cf600019b1a74,25,Female,White/White British,Unemployed,A Level or equivalent,Yes,No,Quite successful,5,4,3,0,0,,control
+5a4cb57c9f5e570001e83daf,27,Female,White/White British,Working part-time,A Level or equivalent,No,Yes,Quite successful,6,2,4,0,2,,control
+5bcfde8c8301810001a33bea,23,Male,White/White British,Unable to work due to disability or any other reason,GCSE or equivalent,Yes,No,Quite successful,6,1,7,0,8,,control
+58bb44dfb225d90001d09eb7,33,Female,White/White British,Working full-time,A Level or equivalent,No,No,Quite unsuccessful,1,5,7,0,0,,control
+5d38613038b787001804ff95,42,Female,White/White British,"Temporarily away from work due to illness, maternity leave, or another reason",Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,4,0,3,2,0,,control
+5ea980e8a5e7d908472c2fb0,32,Male,Asian/Asian British,Working full-time,Post-graduate degree or equivalent,No,No,Quite unsuccessful,3,2,3,0,1,,control
+63177eccf7413f061966ef60,28,Female,White/White British,Working full-time,Post-graduate degree or equivalent,Yes,Yes,Neither successful nor unsuccessful,2,0,4,0,3,,control
+63861830958b7290de6353fc,60,Female,White/White British,Retired,Bachelor's degree or equivalent,No,Yes,Quite unsuccessful,0,8,4,3,2,,control
+5f6f4ae8796bee4c3f824545,31,Male,White/White British,Working full-time,PhD or equivalent,No,No,Neither successful nor unsuccessful,3,1,4,0,1,,control
+608d8e5a23217f3f78975235,22,Male,Asian/Asian British,Working full-time,Bachelor's degree or equivalent,No,No,Neither successful nor unsuccessful,5,0,7,0,3,,control
+5a55c8d276d1c60001aadcb0,41,Female,White/White British,Working part-time,A Level or equivalent,Yes,No,Quite successful,4,7,8,6,6,,control
