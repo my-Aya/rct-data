@@ -1,7 +1,6 @@
 import pandas as pd
 import os
 import numpy as np
-from scipy.stats import chi2_contingency
 
 dir = '/Users/garvert/Documents/Alena/RCT/rct-data/rct-2023-03/'
 
@@ -36,12 +35,13 @@ bl = pd.merge(bl_temp, screen, on='pid', how='inner')
 
 
 # Remove irrelevant columns and rename relevant ones
-bl.rename(columns={'What is your ethnic group?': 'eth_original','What is your employment status?': 'employ_original', 'What is the *highest* level of education you have completed?': 'edu_original', 'Have you ever used any mental health apps before?': 'apps_original', 'Have you ever had any therapy for your mental health?': 'thpy_original', 'How successful do you expect the Alena app will be in reducing your social anxiety symptoms?': 'expect_original',
-                   'Because of my social anxiety, my *ability to work* is impaired.': 'wsas1_0',
-       'Because of my social anxiety, my *home management* (cleaning, tidying, shopping, cooking, looking after home or children, paying bills) is impaired.': 'wsas2_0',
-       'Because of my social anxiety, my *social leisure activities* (with other people, e.g. parties, bars, clubs, outings, visits, dating, home entertaining) are impaired. ': 'wsas3_0',
-       'Because of my social anxiety, my *private leisure activities* (done alone, such as reading, gardening, collecting, sewing, walking alone) are impaired.': 'wsas4_0',
-       'Because of my social anxiety, my ability to form and maintain *close relationships *with others, including those I live with, is impaired.': 'wsas5_0',
+bl.rename(columns={'What is your ethnic group?': 'eth_original','What is your employment status?': 'employ_original', 'What is the *highest* level of education you have completed?': 'edu_original', 'Have you ever used any mental health apps before?': 'apps_original', 'Have you ever had any therapy for your mental health?': 'thpy_original', 
+                   'How successful do you expect the Alena app will be in reducing your social anxiety symptoms?': 'expect_original',
+                   'Because of my social anxiety, my *ability to work* is impaired.': 'wsas1_w0',
+       'Because of my social anxiety, my *home management* (cleaning, tidying, shopping, cooking, looking after home or children, paying bills) is impaired.': 'wsas2_w0',
+       'Because of my social anxiety, my *social leisure activities* (with other people, e.g. parties, bars, clubs, outings, visits, dating, home entertaining) are impaired. ': 'wsas3_w0',
+       'Because of my social anxiety, my *private leisure activities* (done alone, such as reading, gardening, collecting, sewing, walking alone) are impaired.': 'wsas4_w0',
+       'Because of my social anxiety, my ability to form and maintain *close relationships *with others, including those I live with, is impaired.': 'wsas5_w0',
        'What operating system does your phone use?' : 'operating_sys'}, inplace=True)
 bl.drop(['#', 'I confirm that I am over 18 years old',
        'My English language skills are good enough to read, write, and talk about my social anxiety in a way that feels honest and accurate.',
@@ -54,6 +54,14 @@ bl.drop(['#', 'I confirm that I am over 18 years old',
        'In order to receive emails about which exercises to do when, you will need to share your email address. This is a required part of the study.\n\nTo keep your email address anonymous and unlinked from your Prolific ID, *please send an email to **[study@alena.com](mailto:study@alena.com)*. (You can do this by clicking on the email address, or copy-pasting it into your email app)\n\n*Please do this now*, and then come back here and proceed with the survey.',
        'What is your age?', 'randomisation', 'Start Date (UTC)', 'Submit Date (UTC)', 'Network ID', 'Tags','environment',
        'In order to receive emails about which exercises to do when, you will need to share your email address. This is a required part of the study.\n\nTo keep your email address anonymous and unlinked from your Prolific ID, *please send an email to **[study+alena@alena.com](mailto:study+alena@alena.com)*. (You can do this by clicking on the email address, or copy-pasting it into your email app)\n\n*Please do this now*, and then come back here and proceed with the survey.'], axis=1, inplace=True)
+
+# Compute SPIN - Map responses to numerical values
+
+# Filter columns with '_temp' suffix
+filtered_cols_wsas = bl.filter(regex='^wsas[1-5]_w0$')
+
+# Sum all values in filtered columns
+bl['wsastot_w0'] = filtered_cols_wsas.sum(axis=1)
 
 # Load demographics and filter (Prolific data)
 w_demogr = pd.read_csv(dir + "raw_data/waitlist_demographics_baseline.csv")
@@ -140,18 +148,15 @@ for i in range(1, 11):
         for c in range(1, 18):
             col_name = 'spin{}_original_w{}'.format(c, i)
             week[col_name+'_temp_spin'] = week[col_name].map(response_mapping)
-        for c in range(1,6):
-            col_name = 'wsas{}_w{}'.format(c, i)
-            week[col_name+'_temp_wsas'] = week[col_name].map(response_mapping)
         
         # Filter columns with '_temp' suffix
         filtered_cols_spin = week.filter(regex='_temp_spin$')
         week.drop(filtered_cols_spin.columns, axis=1, inplace=True)
-        filtered_cols_wsas = week.filter(regex='_temp_wsas$')
-        week.drop(filtered_cols_wsas.columns, axis=1, inplace=True)
-
-        # Sum all values in filtered columns
         week['spintot_w'+str(i)] = filtered_cols_spin.sum(axis=1)
+
+
+        # Filter columns with '_temp' suffix
+        filtered_cols_wsas = week.filter(regex='^wsas[1-5]_w{}$'.format(i))
         week['wsastot_w'+str(i)] = filtered_cols_wsas.sum(axis=1)
         
         merged_df = pd.merge(merged_df, week, on='pid', how='outer')
