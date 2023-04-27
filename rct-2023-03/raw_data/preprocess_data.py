@@ -1,8 +1,19 @@
 import pandas as pd
 import os
 import numpy as np
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import db
+from sys import platform
+from pathlib import Path
+
+cred = credentials.Certificate('/Users/garvert/Documents/Alena/analysis-attention-guessing/comp-psych-games-firebase-adminsdk-3sadc-37d066849f.json')
+firebase_admin.initialize_app(cred, {
+  'databaseURL': "https://comp-psych-games-default-rtdb.firebaseio.com"
+})
 
 dir = '/Users/garvert/Documents/Alena/RCT/rct-data/rct-2023-03/'
+
 
 # Load the data.csv file into a pandas dataframe
 i_filter = pd.read_csv(dir + "raw_data/intervention_pids.csv")
@@ -35,7 +46,10 @@ bl = pd.merge(bl_temp, screen, on='pid', how='inner')
 
 
 # Remove irrelevant columns and rename relevant ones
-bl.rename(columns={'What is your ethnic group?': 'eth_original','What is your employment status?': 'employ_original', 'What is the *highest* level of education you have completed?': 'edu_original', 'Have you ever used any mental health apps before?': 'apps_original', 'Have you ever had any therapy for your mental health?': 'thpy_original', 
+bl.rename(columns={'What is your ethnic group?': 'eth_original','What is your employment status?': 'employ_original', 
+                   'What is the *highest* level of education you have completed?': 'edu_original', 
+                   'Have you ever used any mental health apps before?': 'apps_original', 
+                   'Have you ever had any therapy for your mental health?': 'thpy_original', 
                    'How successful do you expect the Alena app will be in reducing your social anxiety symptoms?': 'expect_original',
                    'Because of my social anxiety, my *ability to work* is impaired.': 'wsas1_w0',
        'Because of my social anxiety, my *home management* (cleaning, tidying, shopping, cooking, looking after home or children, paying bills) is impaired.': 'wsas2_w0',
@@ -140,7 +154,6 @@ for i in range(1, 11):
                             'Have you experienced any negative effects from taking part in this study? ': 'advall_original_w'+str(i),
                             'We are sorry to hear this. Please describe the negative effect(s) you have experienced from taking part in this study.': 'advall_qual_w'+str(i),
                             'Please rate the severity of the negative effect(s) you have experienced from taking part in this study.': 'advall_sev_w'+str(i)
-                            
                             }, inplace=True)
         
         # Compute SPIN - Map responses to numerical values
@@ -163,46 +176,60 @@ for i in range(1, 11):
 
 merged_df = merged_df.drop_duplicates(subset='pid', keep='first')
 
-# Completion data
-adherence = pd.read_excel(dir + 'raw_data/P-RCT App Group Adherence.xlsx', sheet_name='Retention table')
+# Completion data - taken from firebase
+pathDivider = '/' if platform == 'darwin' else '\\'
+gameID = 'game-' + '-'.join(str(Path().parent.absolute()).split(pathDivider)[-1].split('-')[1:])
+path = '/'.join(['componentState'])
+print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
+ref = db.reference(path)
+d = ref.get()
+ids = d.keys()
 
-# Set the first row as the column names
-adherence.columns = adherence.iloc[0]
+def get_module_completion_counts(pid):
 
-# Drop the first row from the DataFrame
-adherence = adherence.iloc[1:]
+    module_counts = {'AC1P1': 0, 'AC1P2': 0, 'AC1P3': 0, 'M0A1': 0, 'M0E1': 0, 'M0E2': 0, 'M0E3': 0,
+                    'AC2P1': 0, 'AC2P2': 0, 'M1A1': 0, 'M1E2': 0, 'M1E4': 0, 
+                    'AC3P1a': 0, 'AC3P2': 0, 'M2A1': 0, 'M2E1': 0, 'M2E2a': 0, 'M2E2b': 0, 'M2E3a': 0, 'M2E4': 0, 
+                    'AC4P1': 0, 'AC4P2': 0, 'M4A1': 0, 'M4E1': 0, 'M4E2': 0, 'M4E3': 0, 
+                    'AC5P1': 0, 'AC5P2': 0, 'M3A1': 0, 'M3C1': 0, 'M3E1': 0, 'M3E2': 0, 'M3E4': 0, 
+                    'total_exercises_completed': 0}
 
-adherence.rename(columns={'App group Prolific IDs': 'pid',
-        'M0A1: Check your social anxiety level': 'M0A1',
-        'M0E1: Are you ready?': 'M0E1',
-        'M0E2: Map our your social anxiety': 'M0E2',
-        'M0E3: [Quiz] What is social anxiety?': 'M0E3',   
-        'M1E1: Balance a belief': 'M1E1',
-        'M1E2: Explore a new perspective ': 'M1E2',
-        'M1E3: Beliefs - Put it into practice': 'M1E3',
-        'AC3P1a: What is self attention (audio)': 'AC3P1a',
-        'M2E2a': 'M2E2a',
-        'M2E2b': 'M2E2b',
-        'M2E3 Train your attention in a real-life scenario': 'M2E3',
-        'M2E4: Attention - Put it into practice': 'M2E4',
-        'M3E1: Learn to stop negative thoughts': 'M3E1',
-        'M3E2: Challenge your memory bias': 'M3E2',
-        'M3E3: Rumination - Put it into practice': 'M3E3',
-        'M4E1: Identify a safety behavior': 'M4E1',
-        'M4E2: Make a plan for your experiment': 'M4E2',
-        'M4E3: Reflect on your experiment': 'M4E3',
-        'M4E4: Avoidance - Put it into practice': 'M4E4',
-        "Who hasn't completed all beliefs": 'beliefs_not_completed',
-        "Who hasn't completed all of attention?" : 'attention_not_completed'}, inplace=True)
+    if pid in d:
+        total = 0
+        for runID, data in d[pid].items():
+            for module, dt in d[pid][runID].items():
+                if 'numberOfCompletions' in dt:
+                    module_counts[module] += dt['numberOfCompletions']
+                    total += dt['numberOfCompletions']
+                elif 'completed' in dt and dt['completed']:
+                    module_counts[module] += 1
+                    total += 1
+        module_counts['total_exercises_completed'] = total
+    return pd.Series(module_counts)
+
+new_cols_df = merged_df['pid'].apply(get_module_completion_counts)
+merged_df[new_cols_df.columns] = new_cols_df
+
+columns_to_check = ['AC1P1', 'AC1P2', 'AC1P3', 'M0A1', 'M0E1', 'M0E2', 'M0E3']
+merged_df['M0_completed'] = merged_df[columns_to_check].gt(0).all(axis=1).astype(int)
+merged_df['total_M0'] = merged_df[columns_to_check].sum(axis=1)
+
+columns_to_check = ['AC2P1', 'AC2P2', 'M1A1', 'M1E2', 'M1E4', 'M2E1']
+merged_df['M1_completed'] = merged_df[columns_to_check].gt(0).all(axis=1).astype(int)
+merged_df['total_M1'] = merged_df[columns_to_check].sum(axis=1)
+
+columns_to_check = ['AC3P1a', 'AC3P2', 'M2A1', 'M2E2a', 'M2E2b', 'M2E3a', 'M2E4']
+merged_df['M2_completed'] = merged_df[columns_to_check].gt(0).all(axis=1).astype(int)
+merged_df['total_M2'] = merged_df[columns_to_check].sum(axis=1)
+
+columns_to_check = ['AC4P1', 'AC4P2', 'M4A1', 'M4E1', 'M4E2', 'M4E3']
+merged_df['M4_completed'] = merged_df[columns_to_check].gt(0).all(axis=1).astype(int)
+merged_df['total_M4'] = merged_df[columns_to_check].sum(axis=1)
+
+columns_to_check = ['AC5P1', 'AC5P2', 'M3A1', 'M3C1', 'M3E1', 'M3E2', 'M3E4']
+merged_df['M5_completed'] = merged_df[columns_to_check].gt(0).all(axis=1).astype(int)
+merged_df['total_M5'] = merged_df[columns_to_check].sum(axis=1)
 
 
-adherence['total_M0'] = adherence['M0A1'] + adherence['M0E1'] + adherence['M0E2'] + adherence['M0E3']
-adherence['total_M1'] = adherence['M1E1'] + adherence['M1E2'] + adherence['M1E3'] 
-adherence['total_M2'] = adherence['M2E3'] + adherence['M2E4'] 
-adherence['total_M3'] = adherence['M3E1'] + adherence['M3E2'] + adherence['M3E3'] 
-adherence['total_M4'] = adherence['M4E1'] + adherence['M4E2'] + adherence['M4E3'] + adherence['M4E4']
-adherence['total_exercises_completed'] = adherence['total_M0'] + adherence['total_M1'] + adherence['total_M2'] + adherence['total_M3'] + adherence['total_M4']
-
-merged_df = pd.merge(merged_df, adherence, on='pid', how='outer')
 merged_df['edu_original'] = merged_df['edu_original'].replace('Postgraduate degree or equivalent', 'Post-graduate degree or equivalent')
 merged_df.to_csv('preprocessed_data/merged.csv', index=False)
