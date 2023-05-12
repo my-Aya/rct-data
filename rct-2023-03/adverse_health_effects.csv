@@ -1,0 +1,44 @@
+,group,pid,week,response,severity,related to study,description
+0,Intervention,5b87c3f9e88caf0001b79375,4,I'm not sure,,,
+1,Intervention,56c393c495cf7f000b956b25,4,Yes,Mild,,Hearing negative news
+2,Intervention,6271219c2f0fd73e4d217a77,4,I'm not sure,,,
+3,Intervention,641379405684937e6fad9f1b,4,Yes,Moderate,,"Anxiety flair up, dermatology issues"
+4,Intervention,62b182ba39468032223841bb,4,I'm not sure,,,
+5,Intervention,5f0874db34894f07bd04f436,4,Yes,Mild,,"Increased tachycardia and chest pain (unrelated worsening of pre-existing Covid-related condition, probably)"
+6,Intervention,63d190d52bb71e0e81d868f2,4,Yes,Moderate,,Had a downturn in mental health
+7,Intervention,5d1905fe4d7eea00170c3f28,4,I'm not sure,,,
+8,Intervention,5f2afec0781f2848ac688140,4,I'm not sure,,,
+9,Waitlist,5e31a1526ef37a1879a94441,4,Yes,,,Covid
+10,Waitlist,5a622a7f35f26b0001490a5f,4,Yes,,,Had bad news for a family member
+11,Waitlist,60e05b786b9d62ed10982f47,4,Yes,,,I have been diagnosed with high blood pressure and put on medication immediately. This has left me scared and anxious for my health.
+12,Waitlist,63ee7fdc7353888045333f01,4,Yes,,,I have been experiencing an increasing level of stress due to a personal commitment that's coming up soon (exams). This isn't related to my participation in your study.
+13,Waitlist,5ea0110e8df7fa0008956a0a,4,Yes,,,"I lost my job, I was dismissed on health grounds because I was no longer capable of doing my job after working for the company for 12 years."
+14,Waitlist,63d42692a6ffa5e1445872a6,4,Yes,,,Chest infection
+15,Waitlist,5d4c06c6a8d9fb001a1470d5,4,Yes,,,Very fatigued so feeling rather low in mood. No energy to do anything.
+16,Waitlist,5f1e3d27e7d27c3b651d5baf,4,Yes,,,It is only physical discomfort because I am Covid positive .
+17,Intervention,5fc63e053cf83c06341ac94a,4,Yes,Severe,,My physical tics are worse
+18,Intervention,5bddfba7712eb800010d3a61,5,Yes,Severe,No,Abnormal ecg
+19,Intervention,5f85f0cab3f4e20ebf578203,5,I'm not sure,,,
+20,Intervention,636928ef51cdaf360bebba1e,5,I'm not sure,,,
+21,Intervention,623478b74666adc4ae9be6ab,5,Yes,Moderate,No,Some kind of virus
+22,Intervention,5d1905fe4d7eea00170c3f28,5,I'm not sure,,,
+23,Waitlist,63ea497522ab8dac66f07e6d,5,I'm not sure,,,
+24,Waitlist,63d153292ab8a7e4066fb52a,5,I'm not sure,,,
+25,Waitlist,638e2eed82fa613f2140ba13,5,I'm not sure,,,
+26,Waitlist,63dbe76cbc72cdb0f3e93414,5,Yes,Moderate,No,"I've developed several unrelated symptoms like muscle twitching, dizziness and clumsiness. The issue is under investigation at the moment."
+27,Waitlist,5c84d2370d4ac0001196cde4,5,Yes,Severe,No,"Hallucinations, can't close my eyes without seeing unpleasant so really affecting my sleep"
+28,Waitlist,63d42692a6ffa5e1445872a6,5,Yes,Severe,No,Chest infection/ throat infection
+29,Waitlist,614e43c148febeb17c93e998,5,Yes,Severe,No,"Anxiety and stress spiked, causing me to go on SSRIs"
+30,Waitlist,63861830958b7290de6353fc,5,Yes,Moderate,No,I have been eating and drinking too much to counteract the loneliness and uselessness I feel. It's been a bank holiday and I've done nothing but mope!
+31,Intervention,5bddfba7712eb800010d3a61,6,Yes,Severe,No,I was very worried
+32,Intervention,5f85f0cab3f4e20ebf578203,6,I'm not sure,,,
+33,Waitlist,5f0f6811a0ed4a11dbc57b79,6,Yes,Mild,No,anxiety
+34,Waitlist,5f450738ab827a05e739ef40,6,Yes,Severe,No,
+35,Waitlist,5b2659e78ecf3f0001617cbd,6,Yes,Moderate,No,Intense loneliness
+36,Waitlist,60e05b786b9d62ed10982f47,6,Yes,Moderate,No,Very bad allergic reaction to caterpillars
+37,Waitlist,6027cc78c597e0049f3e455d,6,Yes,Severe,No,Worsening of depression and low mood
+38,Waitlist,5ea0110e8df7fa0008956a0a,6,I'm not sure,,,
+39,Waitlist,63ea46a6a9097ada514413a0,6,I'm not sure,,,
+40,Waitlist,6004acf12facd1642ea69a4f,6,Yes,Severe,No,Heightened mental health issues due to change in circumstances
+41,Waitlist,59646f5198cf77000106feb1,6,Yes,Moderate,No,Leg pain
+42,Waitlist,63861830958b7290de6353fc,6,Yes,Severe,No,"I can't finish things. My house is full of 'stuff' crafts I decided to take up but didn't keep up with, clothes that don't fit me, bags of I don't know what everywhere. I eat and drink far too much. I buy more clothes and brick a brac that I can't afford!"

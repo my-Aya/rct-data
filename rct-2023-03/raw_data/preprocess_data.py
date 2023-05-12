@@ -7,11 +7,6 @@ from firebase_admin import db
 from sys import platform
 from pathlib import Path
 
-cred = credentials.Certificate('/Users/garvert/Documents/Alena/analysis-attention-guessing/comp-psych-games-firebase-adminsdk-3sadc-37d066849f.json')
-firebase_admin.initialize_app(cred, {
-  'databaseURL': "https://comp-psych-games-default-rtdb.firebaseio.com"
-})
-
 dir = '/Users/garvert/Documents/Alena/RCT/rct-data/rct-2023-03/'
 
 
@@ -104,27 +99,36 @@ for i in range(1, 11):
         i_week = pd.read_csv(os.path.join(dir, 'raw_data/', i_filename))
         w_week = pd.read_csv(os.path.join(dir, 'raw_data', w_filename))
         
+        w_week.rename(columns={
+                            'We are sorry to hear this. Please describe the negative effect(s) you have experienced during the past week.': 'We are sorry to hear this. Please describe the negative effect(s) you have experienced during the last week.', 
+                            "Do you think any of these negative effect(s) were due to your participation in this study?": "Do you think that any of these negative effect(s) were due to your participation in this study?"}, inplace=True)
+        
         # i_week = i_week[i_week['pid'].isin(i_filter['pid'])]
         # w_week = w_week[w_week['pid'].isin(w_filter['pid'])]
         week = pd.concat([i_week, w_week], axis=0)
-        week.drop(['#', 'Nothing - I completed the exercises',
-        'I did not feel like it was helping or would help me',
-        'I forgot to use it',
-        'I experienced technical difficulties (e.g. the app crashed)',
-        'I found it boring',
-        'The app was not enjoyable to use (e.g. too repetitive)',
-        'I did not have access to a smartphone or the internet',
-        'I was too busy or didn’t have time',
-        'I did not feel emotionally able to complete it',
-        'I found it too hard/challenging to complete',
-        'I just didn’t feel like it', 'Other','phq', 'wsas', 'Start Date (UTC)', 'Submit Date (UTC)','Score',
-        'Network ID', 'Tags'], axis=1, inplace=True)
         
+        week.drop(['#', 'Nothing - I completed the exercises',
+            'I did not feel like it was helping or would help me',
+            'I forgot to use it',
+            'I experienced technical difficulties (e.g. the app crashed)',
+            'I found it boring',
+            'The app was not enjoyable to use (e.g. too repetitive)',
+            'I did not have access to a smartphone or the internet',
+            'I was too busy or didn’t have time',
+            'I did not feel emotionally able to complete it',
+            'I found it too hard/challenging to complete',
+            'I just didn’t feel like it', 'Other','phq', 'wsas', 'Start Date (UTC)', 'Submit Date (UTC)',"Score",
+            'Network ID', 'Tags'], axis=1, inplace=True)
+
         week.rename(columns={'How satisfied or dissatisfied are you with using the Alena app overall?': 'satis_original_w'+str(i),
                             'How helpful have you found the Alena app?': 'help_original_w'+str(i),
                             'How likely are you to recommend the Alena app to a person who experiences similar problems?' : 'recc_original_w'+str(i),
                             'How easy to use have you found the Alena app?' : 'easy_original_w'+str(i),
                             "Did you get to the end of this week's recommended activities in the app?": 'end_original_w'+str(i),
+                            'Have you experienced any new, serious negative health effects in the past week?': 'advhealth_original_w'+str(i),
+                            'We are sorry to hear this. Please describe the negative effect(s) you have experienced during the last week.': 'advhealth_qual_w'+str(i),
+                            'Please rate the severity of the negative effect(s) you have experienced.': 'advhealth_sev_w'+str(i),
+                            'Do you think that any of these negative effect(s) were due to your participation in this study?': 'advhealth_study_w'+str(i),
                             'Have you experienced any negative effects from using the Alena app?': 'advapp_original_w'+str(i),
                             'We are sorry to hear this. Please describe the negative effect(s) you have experienced from using the Alena app.': 'advapp_qual_w'+str(i),
                             'Please rate the severity of the negative effect(s) you have experienced from using the Alena app.': 'advapp_sev_w'+str(i),
@@ -156,6 +160,7 @@ for i in range(1, 11):
                             'Please rate the severity of the negative effect(s) you have experienced from taking part in this study.': 'advall_sev_w'+str(i)
                             }, inplace=True)
         
+        
         # Compute SPIN - Map responses to numerical values
         response_mapping = {'Not at all': 0, 'A little bit': 1, 'Somewhat': 2, 'Very much': 3, 'Extremely': 4}
         for c in range(1, 18):
@@ -176,14 +181,34 @@ for i in range(1, 11):
 
 merged_df = merged_df.drop_duplicates(subset='pid', keep='first')
 
+
 # Completion data - taken from firebase
-pathDivider = '/' if platform == 'darwin' else '\\'
-gameID = 'game-' + '-'.join(str(Path().parent.absolute()).split(pathDivider)[-1].split('-')[1:])
+## RCT app
+cred1 = credentials.Certificate('/Users/garvert/Documents/Alena/analysis-attention-guessing/comp-psych-games-firebase-adminsdk-3sadc-37d066849f.json')
+app1 = firebase_admin.initialize_app(cred1, {
+  'databaseURL': "https://comp-psych-games-default-rtdb.firebaseio.com",
+}, name='app1')
+
 path = '/'.join(['componentState'])
 print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
-ref = db.reference(path)
-d = ref.get()
+ref1 = db.reference(path, app=app1)
+d = ref1.get()
 ids = d.keys()
+
+## Some users downloaded the main app instead - collect their data from the corresponding database
+# load IDs of users who downloaded the main app
+main_app_users = pd.read_csv(dir + "raw_data/prolificinprod.csv")
+
+cred2 = credentials.Certificate('/Users/garvert/Documents/alena-prod-firebase-adminsdk-hjq6d-0a843ddf1d.json')
+app2 = firebase_admin.initialize_app(cred2, {
+  'databaseURL': "https://alena-prod-default-rtdb.europe-west1.firebasedatabase.app/",
+}, name='app2')
+
+path = '/'.join(['componentState'])
+print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
+ref2 = db.reference(path, app=app2)
+d_main = ref2.get()
+ids = d_main.keys()
 
 def get_module_completion_counts(pid):
 
@@ -192,7 +217,28 @@ def get_module_completion_counts(pid):
                     'AC3P1a': 0, 'AC3P2': 0, 'M2A1': 0, 'M2E1': 0, 'M2E2a': 0, 'M2E2b': 0, 'M2E3a': 0, 'M2E4': 0, 
                     'AC4P1': 0, 'AC4P2': 0, 'M4A1': 0, 'M4E1': 0, 'M4E2': 0, 'M4E3': 0, 
                     'AC5P1': 0, 'AC5P2': 0, 'M3A1': 0, 'M3C1': 0, 'M3E1': 0, 'M3E2': 0, 'M3E4': 0, 
-                    'total_exercises_completed': 0}
+                    'total_exercises_completed': 0, 'app_version': 'none'    }
+
+    temp = main_app_users[main_app_users['Prolific ID'] == pid]['UID']
+    if not temp.empty:
+        uid = temp.values[0]
+        # run the statement you want to execute if the output is not empty
+        # for example:
+        print("UID found:", uid)
+        if uid in d_main:
+            
+            total = 0
+            for runID, data in d_main[uid].items():
+                for module, dt in d_main[uid][runID].items():
+                    if 'numberOfCompletions' in dt:
+                        module_counts[module] += dt['numberOfCompletions']
+                        total += dt['numberOfCompletions']
+                    elif 'completed' in dt and dt['completed']:
+                        module_counts[module] += 1
+                        total += 1
+            module_counts['total_exercises_completed'] = total
+            module_counts['app_version'] = 'main_app'
+            print(total)
 
     if pid in d:
         total = 0
@@ -205,29 +251,40 @@ def get_module_completion_counts(pid):
                     module_counts[module] += 1
                     total += 1
         module_counts['total_exercises_completed'] = total
+        module_counts['app_version'] = 'rct_app'
+    
+    
+    
     return pd.Series(module_counts)
+
 
 new_cols_df = merged_df['pid'].apply(get_module_completion_counts)
 merged_df[new_cols_df.columns] = new_cols_df
 
+
 columns_to_check = ['AC1P1', 'AC1P2', 'AC1P3', 'M0A1', 'M0E1', 'M0E2', 'M0E3']
 merged_df['M0_completed'] = merged_df[columns_to_check].gt(0).all(axis=1).astype(int)
+merged_df['M0_any'] = merged_df[columns_to_check].gt(0).any(axis=1).astype(int)
 merged_df['total_M0'] = merged_df[columns_to_check].sum(axis=1)
 
 columns_to_check = ['AC2P1', 'AC2P2', 'M1A1', 'M1E2', 'M1E4', 'M2E1']
 merged_df['M1_completed'] = merged_df[columns_to_check].gt(0).all(axis=1).astype(int)
+merged_df['M1_any'] = merged_df[columns_to_check].gt(0).any(axis=1).astype(int)
 merged_df['total_M1'] = merged_df[columns_to_check].sum(axis=1)
 
 columns_to_check = ['AC3P1a', 'AC3P2', 'M2A1', 'M2E2a', 'M2E2b', 'M2E3a', 'M2E4']
 merged_df['M2_completed'] = merged_df[columns_to_check].gt(0).all(axis=1).astype(int)
+merged_df['M2_any'] = merged_df[columns_to_check].gt(0).any(axis=1).astype(int)
 merged_df['total_M2'] = merged_df[columns_to_check].sum(axis=1)
 
 columns_to_check = ['AC4P1', 'AC4P2', 'M4A1', 'M4E1', 'M4E2', 'M4E3']
 merged_df['M4_completed'] = merged_df[columns_to_check].gt(0).all(axis=1).astype(int)
+merged_df['M4_any'] = merged_df[columns_to_check].gt(0).any(axis=1).astype(int)
 merged_df['total_M4'] = merged_df[columns_to_check].sum(axis=1)
 
 columns_to_check = ['AC5P1', 'AC5P2', 'M3A1', 'M3C1', 'M3E1', 'M3E2', 'M3E4']
 merged_df['M5_completed'] = merged_df[columns_to_check].gt(0).all(axis=1).astype(int)
+merged_df['M5_any'] = merged_df[columns_to_check].gt(0).any(axis=1).astype(int)
 merged_df['total_M5'] = merged_df[columns_to_check].sum(axis=1)
 
 
