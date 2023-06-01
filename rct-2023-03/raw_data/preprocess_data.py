@@ -7,7 +7,7 @@ from firebase_admin import db
 from sys import platform
 from pathlib import Path
 
-dir = '/Users/garvert/Documents/Alena/RCT/rct-data/rct-2023-03/'
+dir = '/Users/paul/Documents_local/rct-data/rct-2023-03/'
 
 
 # Load the data.csv file into a pandas dataframe
@@ -184,7 +184,7 @@ merged_df = merged_df.drop_duplicates(subset='pid', keep='first')
 
 # Completion data - taken from firebase
 ## RCT app
-cred1 = credentials.Certificate('/Users/garvert/Documents/Alena/analysis-attention-guessing/comp-psych-games-firebase-adminsdk-3sadc-37d066849f.json')
+cred1 = credentials.Certificate('/Users/paul/games/conditional_beliefs/src/private/firebase-key.json')
 app1 = firebase_admin.initialize_app(cred1, {
   'databaseURL': "https://comp-psych-games-default-rtdb.firebaseio.com",
 }, name='app1')
@@ -199,7 +199,7 @@ ids = d.keys()
 # load IDs of users who downloaded the main app
 main_app_users = pd.read_csv(dir + "raw_data/prolificinprod.csv")
 
-cred2 = credentials.Certificate('/Users/garvert/Documents/alena-prod-firebase-adminsdk-hjq6d-0a843ddf1d.json')
+cred2 = credentials.Certificate('/Users/paul/games/conditional_beliefs/src/private/alena-prod-firebase-adminsdk-hjq6d-0a843ddf1d.json')
 app2 = firebase_admin.initialize_app(cred2, {
   'databaseURL': "https://alena-prod-default-rtdb.europe-west1.firebasedatabase.app/",
 }, name='app2')
@@ -289,4 +289,4 @@ merged_df['total_M5'] = merged_df[columns_to_check].sum(axis=1)
 
 
 merged_df['edu_original'] = merged_df['edu_original'].replace('Postgraduate degree or equivalent', 'Post-graduate degree or equivalent')
-merged_df.to_csv('preprocessed_data/merged.csv', index=False)
+merged_df.to_csv('../preprocessed_data/merged.csv', index=False)
