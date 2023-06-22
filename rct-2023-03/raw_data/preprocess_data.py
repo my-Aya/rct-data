@@ -163,15 +163,31 @@ for i in range(1, 11):
         
         # Compute SPIN - Map responses to numerical values
         response_mapping = {'Not at all': 0, 'A little bit': 1, 'Somewhat': 2, 'Very much': 3, 'Extremely': 4}
+
+        physical_symptoms_subscale = [2,7,13,17]
+        negative_evaluation_subscale = [1,16,5,12,6,14,15]
+        uncertainty_subscale = [9,3,8,4,10]
+
         for c in range(1, 18):
             col_name = 'spin{}_original_w{}'.format(c, i)
             week[col_name+'_temp_spin'] = week[col_name].map(response_mapping)
-        
+
+        # Filter columns for each subscale
+        filtered_cols_physical = week.filter(regex='_temp_spin$').filter(items=['spin{}_original_w{}_temp_spin'.format(c, i) for c in physical_symptoms_subscale])
+        filtered_cols_negative = week.filter(regex='_temp_spin$').filter(items=['spin{}_original_w{}_temp_spin'.format(c, i) for c in negative_evaluation_subscale])
+        filtered_cols_uncertainty = week.filter(regex='_temp_spin$').filter(items=['spin{}_original_w{}_temp_spin'.format(c, i) for c in uncertainty_subscale])
+
+
+        week['physical_subscale_w'+str(i)] = filtered_cols_physical.sum(axis=1)
+        week['negative_subscale_w'+str(i)] = filtered_cols_negative.sum(axis=1)
+        week['uncertainty_subscale_w'+str(i)] = filtered_cols_uncertainty.sum(axis=1)
+
         # Filter columns with '_temp' suffix
         filtered_cols_spin = week.filter(regex='_temp_spin$')
         week.drop(filtered_cols_spin.columns, axis=1, inplace=True)
         week['spintot_w'+str(i)] = filtered_cols_spin.sum(axis=1)
 
+        week.drop(week.filter(regex='_temp_spin$').columns, axis=1, inplace=True)
 
         # Filter columns with '_temp' suffix
         filtered_cols_wsas = week.filter(regex='^wsas[1-5]_w{}$'.format(i))
