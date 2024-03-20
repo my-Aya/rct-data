@@ -1,0 +1,200 @@
+{
+  "SPIN_QUESTIONS": [
+    "I am afraid of people in authority",
+    "I am bothered by blushing in front of people",
+    "Parties and social events scare me",
+    "I avoid talking to people I don't know",
+    "Being criticized scares me a lot",
+    "I avoid doing things or speaking to people for fear of embarrassment",
+    "Sweating in front of people causes me distress",
+    "I avoid going to parties",
+    "I avoid activities in which I am the center of attention",
+    "Talking to strangers scares me",
+    "I avoid having to give speeches",
+    "I would do anything to avoid being criticized",
+    "Heart palpitations bother me when I am around people",
+    "I am afraid of doing things when people might be watching",
+    "Being embarrassed or looking stupid are among my worst fears",
+    "I avoid speaking to anyone in authority",
+    "Trembling or shaking in front of others is distressing to me"
+  ],
+  "SPIN_MAPPING": {
+    "Not at all": 0,
+    "A little bit": 1,
+    "Somewhat": 2,
+    "Very much": 3,
+    "Extremely": 4
+  },
+  "WSAS_QUESTIONS": [
+    "Because of my social anxiety, my *ability to work* is impaired",
+    "Because of my social anxiety, my *home management* (cleaning, tidying, shopping, cooking, looking after home or children, paying bills) is impaired",
+    "Because of my social anxiety, my *social leisure activities* (with other people, e.g. parties, bars, clubs, outings, visits, dating, home entertaining) are impaired",
+    "Because of my social anxiety, my *private leisure activities* (done alone, such as reading, gardening, collecting, sewing, walking alone) are impaired",
+    "Because of my social anxiety, my ability to form and maintain *close relationships *with others, including those I live with, is impaired"
+  ],
+  "PHQ9_QUESTIONS": [
+    "Please indicate how often you have been bothered by the following over the past 2 weeks. \n\n*Little interest or pleasure in doing things?*",
+    "Please indicate how often you have been bothered by the following over the past 2 weeks. \n\n*Feeling down, depressed, or hopeless?*",
+    "Please indicate how often you have been bothered by the following over the past 2 weeks. \n\n*Trouble falling or staying asleep, or sleeping too much?*",
+    "Please indicate how often you have been bothered by the following over the past 2 weeks. \n\n*Feeling tired or having little energy*?",
+    "Please indicate how often you have been bothered by the following over the past 2 weeks. \n\n*Poor appetite or overeating?*",
+    "Please indicate how often you have been bothered by the following over the past 2 weeks. \n\n*Feeling bad about yourself — or that you are a failure or have let yourself or your family down?*",
+    "Please indicate how often you have been bothered by the following over the past 2 weeks. \n\n*Trouble concentrating on things, such as reading the newspaper or watching television?*",
+    "Please indicate how often you have been bothered by the following over the past 2 weeks. \n\n*Moving or speaking so slowly that other people could have noticed? Or so fidgety or restless that you have been moving a lot more than usual?",
+    "Please indicate how often you have been bothered by the following over the past 2 weeks. \n\n*Thoughts that you would be better off dead, or thoughts of hurting yourself in some way?*"
+  ],
+  "PHQ9_MAPPING": {
+    "Not at all": 0,
+    "Several days": 1,
+    "More than half the days": 2,
+    "Nearly every day": 3
+  },
+  "SCREENING_QUESTIONS": {
+    "rct_2022": {
+      "os": "Do you have daily access to an Apple iPhone which can connect to the App Store?",
+      "taking_medication": "Are you currently taking any medication for your mental health? For example, sertraline for depression or propranolol for panic attacks.",
+      "changed_medication": "Have you changed your usual mental health medication or dosage within the past 8 weeks?",
+      "therapy": "Are you currently undergoing any therapy for your mental health?",
+      "alcohol_frequency": "How often do you have a drink containing alcohol?",
+      "alcohol_amount": "How many standard drinks containing alcohol do you have on a typical day?",
+      "alcohol_binge": "How often have you had 6 or more units of alcohol on a single occasion in the last year?",
+      "drugs_recent": "Have you used any recreational drugs *in the last three months*?",
+      "drugs_frequency": "In the last three months, have you had a strong desire or urge to use recreational drugs at least once a week or more often?",
+      "drugs_concern": "In the last three months, has anyone expressed concern about your use of recreational drugs?"
+    },
+    "rct_2023": {
+      "os": "Which operating system does your phone use? ",
+      "internet": "Do you have daily access to the internet via your phone?",
+      "taking_medication": "Are you currently taking any medication for your mental health?",
+      "changed_medication": "Have you changed your mental health medication or dosage within the past 8 weeks?",
+      "therapy": "Are you currently undergoing any therapy for your mental health?",
+      "used_alena": "I have tried/used the Alena app before",
+      "done_fishing_game": "I have tried the fishing game where I guess where in the pond I should try to fish, along with a partner",
+      "done_impostor_game": "I have tried the Imposter game where I guess/bluff about who in the group of players is the imposter, based on word associations",
+      "done_museum_game": "I have tried the museum game where I describe paintings to a partner (and they describe some to me), and we try to guess the painting",
+      "done_replica_game": "I have tried the replica game where I have to guess what different replicas/robots think of me, e.g. whether they think I am 'kind' etc",
+      "alcohol_frequency": "How often do you have a drink containing alcohol?",
+      "alcohol_amount": "How many standard drinks containing alcohol do you have on a typical day?",
+      "alcohol_binge": "How often have you had 6 or more units of alcohol on a single occasion in the last year?",
+      "drugs_recent": "Have you used any recreational drugs *in the last three months*?",
+      "drugs_frequency": "In the last three months, have you had a strong desire or urge to use recreational drugs at least once a week or more often?",
+      "drugs_concern": "In the last three months, has anyone expressed concern about your use of recreational drugs?"
+    }
+  },
+  "BASELINE_QUESTIONS": {
+    "ethnicity": "What is your ethnic group?",
+    "employment": "What is your employment status?",
+    "education": "What is the *highest* level of education you have completed?",
+    "used_apps_before": "Have you ever used any mental health apps before?",
+    "ever_had_therapy": "Have you ever had any therapy for your mental health?",
+    "alena_expectations": "How successful do you expect the Alena app will be in reducing your social anxiety symptoms?",
+    "age": {
+      "rct_2022": "How old are you?",
+      "rct_2023": "What is your age?"
+    }
+  },
+  "BASELINE_MAPPING": {
+    "alena_expectations": {
+      "Very unsuccessful": 0,
+      "Quite unsuccessful": 1,
+      "Neither successful nor unsuccessful": 2,
+      "Quite successful": 3,
+      "Very successful": 4
+    }
+  },
+
+  "SAFETY_QUESTIONS": {
+    "rct_2022": {
+      "app_adverse_effects": "Have you experienced any negative effects from using the Alena app?",
+      "app_adverse_description": "We are sorry to hear this. Please describe the negative effect(s) you have experienced from using the Alena app.",
+      "app_adverse_severity": "Please rate the severity of the negative effect(s) you have experienced from using the Alena app.",
+      "health_adverse_effects": [
+        "Have you experienced any negative effects from using the Alena app?",
+        "Have you experienced any *new,* *serious* negative health effects in the past week?"
+      ],
+      "health_adverse_description": [
+        "We are sorry to hear this. Please briefly describe the serious negative effect(s) you have experienced.",
+        "We are sorry to hear this. Please describe the negative effect(s) you have experienced from using the Alena app."
+      ]
+    },
+    "rct_2023": {
+      "app_adverse_effects": "Have you experienced any negative effects from using the Alena app?",
+      "app_adverse_description": "We are sorry to hear this. Please describe the negative effect(s) you have experienced from using the Alena app.",
+      "app_adverse_severity": "Please rate the severity of the negative effect(s) you have experienced from using the Alena app.",
+      "health_adverse_effects": "Have you experienced any new, serious negative health effects in the past week?",
+      "health_adverse_description": [
+        "We are sorry to hear this. Please describe the negative effect(s) you have experienced during the past week.",
+        "We are sorry to hear this. Please briefly describe the serious negative effect(s) you have experienced.",
+        "We are sorry to hear this. Please describe the negative effect(s) you have experienced during the last week."
+      ],
+      "health_adverse_severity": [
+        "Please rate the severity of the negative effect(s) you have experienced.",
+        "Please rate the severity of the negative effect(s) you have experienced from taking part in this study."
+      ]
+    }
+  },
+  "SAFETY_MAPPING": {
+    "app_adverse_severity": {
+      "Very mild": 0,
+      "Mild": 1,
+      "Moderate": 2,
+      "Severe": 3,
+      "Very severe": 4
+    },
+    "health_adverse_severity": {
+      "Very mild": 0,
+      "Mild": 1,
+      "Moderate": 2,
+      "Severe": 3,
+      "Very severe": 4
+    }
+  },
+  "WEEKLY_QUESTIONS": {
+    "rct_2022": {
+      "satisfaction": "How satisfied or dissatisfied are you with using the Alena app overall?",
+      "helpfulness": "How helpful have you found the Alena app?",
+      "recommend": "How likely are you to recommend the Alena app to a person who experiences similar problems?",
+      "easiness": "How easy to use have you found the Alena app?",
+      "usage": "Did you get to the end of this week's exercises in the app?"
+    },
+    "rct_2023": {
+      "satisfaction": "How satisfied or dissatisfied are you with using the Alena app overall?",
+      "helpfulness": "How helpful have you found the Alena app?",
+      "recommend": "How likely are you to recommend the Alena app to a person who experiences similar problems?",
+      "easiness": "How easy to use have you found the Alena app?",
+      "usage": "Did you get to the end of this week's recommended activities in the app?",
+      "looking_for_help": "Were you previously looking for help with reducing your symptoms of social anxiety?",
+      "default_app_searching": "How likely is it that you would have sought help with social anxiety from a therapy app if you had not participated in this study?"
+    }
+  },
+  "WEEKLY_MAPPING": {
+    "satisfaction": {
+      "Very dissatisfied": 0,
+      "Somewhat dissatisfied": 1,
+      "Neither satisfied nor dissatisfied": 2,
+      "Somewhat satisfied": 3,
+      "Very satisfied": 4
+    },
+    "helpfulness": {
+      "Very unhelpful": 0,
+      "Somewhat unhelpful": 1,
+      "Neither helpful nor unhelpful": 2,
+      "Somewhat helpful": 3,
+      "Very helpful": 4
+    },
+    "recommend": {
+      "Very unlikely": 0,
+      "Somewhat unlikely": 1,
+      "Neither likely nor unlikely": 2,
+      "Somewhat likely": 3,
+      "Very likely": 4
+    },
+    "easiness": {
+      "Very difficult to use": 0,
+      "Somewhat difficult to use": 1,
+      "Neither easy to use nor difficult to use": 2,
+      "Somewhat easy to use": 3,
+      "Very easy to use": 4
+    }
+  }
+}

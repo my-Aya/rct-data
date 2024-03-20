@@ -1,0 +1,103 @@
+pid,rct,group,Age (years),SPIN,WSAS,PHQ-9,Expectations for Alena,Alcohol use,Ethnicity,Employment,Education,Any drug use,Ever had therapy for social anxiety,On medication,Used apps for mental health before
+61011dd1dccad8267930b9bd,1,treatment,28.0,44,15.0,14.0,3.0,3.0,White,Full-time,Bachelor’s degree or equivalent,False,True,True,True
+601732b73bdebe96ac49d4eb,1,treatment,32.0,55,25.0,23.0,3.0,1.0,Asian,Part-time,Bachelor’s degree or equivalent,False,True,False,False
+63468948a737d638cacf18bb,1,treatment,28.0,51,25.0,23.0,2.0,0.0,White,Temporarily not working,Bachelor’s degree or equivalent,False,True,False,False
+5b2accc228c8850001e7f85b,1,treatment,33.0,40,17.0,10.0,1.0,0.0,White,Full-time,Bachelor’s degree or equivalent,False,True,True,True
+60dfa262b225a8e45b6d4421,1,treatment,21.0,51,30.0,20.0,2.0,6.0,Mixed/Multiple,Student,"Apprenticeship, higher education diploma or equivalent",False,True,False,False
+612cb8ab5ad60fc4504e073f,1,waitlist,28.0,39,10.0,10.0,2.0,0.0,White,Full-time,"Apprenticeship, higher education diploma or equivalent",False,True,False,False
+5f00396a739ed5000c224c26,1,waitlist,23.0,55,29.0,25.0,3.0,3.0,White,Unable to work,GCSE or equivalent,False,True,True,True
+5d2df58a481c4b001d16250d,1,waitlist,25.0,56,17.0,19.0,3.0,1.0,Asian,Student,Bachelor’s degree or equivalent,False,True,False,False
+61474f07f4cfbc50cb3b2f1e,1,waitlist,27.0,40,27.0,9.0,2.0,2.0,White,Part-time,A-level or equivalent,False,True,False,False
+61470066dce66ce341df39c1,1,treatment,30.0,31,10.0,3.0,3.0,1.0,White,Full-time,Bachelor’s degree or equivalent,False,False,False,True
+5ed68c770e41400dd0056c55,1,treatment,34.0,55,9.0,7.0,2.0,0.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5baa81380d7ad600017a85de,1,treatment,34.0,39,32.0,5.0,2.0,3.0,White,Part-time,A-level or equivalent,False,True,False,True
+62fb79a36ba83fbcd9b713c6,1,waitlist,22.0,38,18.0,5.0,3.0,1.0,White,Student,A-level or equivalent,False,False,False,True
+5ce7f7ae2aa9590016af2ba7,1,waitlist,28.0,40,22.0,14.0,2.0,5.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5995889da2bbe000018833d9,1,waitlist,32.0,39,11.0,7.0,3.0,3.0,White,Part-time,"Apprenticeship, higher education diploma or equivalent",False,True,False,False
+5689916dd3d6a7000aa1cbf0,1,waitlist,28.0,48,8.0,6.0,2.0,1.0,White,Part-time,A-level or equivalent,False,False,False,True
+5f7e180204eed80b515a3569,1,treatment,35.0,32,11.0,3.0,3.0,4.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,True
+5dccf99db9d9049777368b3b,1,waitlist,32.0,32,21.0,14.0,2.0,4.0,White,Part-time,GCSE or equivalent,False,True,False,False
+5b7f17a7338a93000155a36d,1,treatment,22.0,32,15.0,5.0,3.0,3.0,White,Student,Bachelor’s degree or equivalent,False,True,False,True
+634800fdb2e94793820316a0,1,waitlist,27.0,39,20.0,8.0,3.0,4.0,White,Full-time,Bachelor’s degree or equivalent,False,False,False,True
+5dbb0562b1df1b110ead5bba,1,treatment,35.0,44,18.0,9.0,2.0,1.0,White,Part-time,GCSE or equivalent,False,True,True,False
+5fc0ddfbcfc57d00094c4b3d,1,treatment,31.0,34,7.0,15.0,2.0,2.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5ecffbd8141ffb0a3ec0eb86,1,waitlist,21.0,45,21.0,12.0,3.0,0.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+617097e90d0505595ce66612,1,treatment,31.0,35,17.0,11.0,2.0,5.0,White,Student,Bachelor’s degree or equivalent,True,True,False,False
+611cecb5dbc0658aad64bf2d,1,treatment,27.0,33,9.0,5.0,2.0,5.0,White,Full-time,"Apprenticeship, higher education diploma or equivalent",False,False,False,True
+5da179412996110016d853d5,1,waitlist,34.0,56,20.0,16.0,1.0,1.0,White,Unemployed,A-level or equivalent,False,True,False,False
+5bbbcd283895e3000163213f,1,treatment,33.0,42,11.0,4.0,2.0,4.0,White,Full-time,Bachelor’s degree or equivalent,False,False,False,True
+5c52f9bce66e510001ee16c2,1,waitlist,32.0,35,13.0,6.0,3.0,4.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,True
+62d13eb8bb0d45e1ad36d312,1,waitlist,28.0,42,24.0,19.0,3.0,2.0,White,Part-time,Bachelor’s degree or equivalent,False,True,True,False
+603d04228f5578000ba2c7b5,1,waitlist,24.0,46,21.0,12.0,1.0,2.0,White,Student,Bachelor’s degree or equivalent,False,False,True,True
+5fb13129b04a8557d629bb16,1,waitlist,26.0,38,11.0,10.0,1.0,1.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+60927707758ca118d00ac04b,1,waitlist,28.0,53,17.0,6.0,3.0,3.0,White,Part-time,Bachelor’s degree or equivalent,False,True,False,True
+60da18693053b2c1d420085f,1,treatment,29.0,58,12.0,25.0,3.0,5.0,White,Full-time,A-level or equivalent,False,False,False,True
+5a6107bb31b87a0001c6c49b,1,waitlist,32.0,34,14.0,8.0,3.0,2.0,White,Full-time,A-level or equivalent,False,False,False,True
+5e9c5460d2c58515ec1702be,1,waitlist,26.0,51,31.0,17.0,2.0,0.0,White,Full-time,A-level or equivalent,False,True,False,False
+5edaac6ad4bd47161c3d50ba,1,waitlist,27.0,42,28.0,15.0,2.0,5.0,White,Full-time,Bachelor’s degree or equivalent,True,True,False,True
+5d651053afb8f700198459d4,1,treatment,28.0,39,10.0,8.0,3.0,6.0,White,Full-time,Bachelor’s degree or equivalent,True,True,False,False
+6307cc2da13d39254c1f139c,1,waitlist,30.0,39,4.0,3.0,1.0,1.0,White,Part-time,A-level or equivalent,False,True,False,False
+60ddcc052137212419247c3c,1,treatment,34.0,56,33.0,18.0,3.0,5.0,White,Unable to work,GCSE or equivalent,False,True,False,False
+5cad1eef8ed53d00180d2532,1,waitlist,22.0,39,17.0,7.0,2.0,2.0,Black,Unemployed,A-level or equivalent,False,False,False,True
+5dc93b9a575da16530499583,1,waitlist,29.0,37,17.0,12.0,3.0,5.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+62a71ce6a09aa213bd5c3de9,1,treatment,24.0,35,1.0,9.0,1.0,5.0,White,Full-time,Bachelor’s degree or equivalent,False,True,True,True
+5fc93d0e16b69439e106238e,1,waitlist,29.0,51,21.0,9.0,2.0,3.0,White,Full-time,Bachelor’s degree or equivalent,False,True,True,False
+5e1781093582cc082a68723c,1,waitlist,31.0,52,24.0,18.0,3.0,5.0,White,Full-time,Bachelor’s degree or equivalent,False,False,False,True
+6078649b9de64f21e3fee45d,1,waitlist,35.0,34,17.0,9.0,1.0,2.0,White,Full-time,A-level or equivalent,False,True,True,True
+5e204990b062543612e9a254,1,waitlist,24.0,50,22.0,11.0,2.0,2.0,White,Full-time,"Apprenticeship, higher education diploma or equivalent",False,False,False,True
+5e41630f6391e10286e2bddf,1,treatment,19.0,55,18.0,6.0,3.0,2.0,White,Student,A-level or equivalent,False,True,False,False
+60c20abfdccab926283d8f7f,1,treatment,26.0,43,19.0,12.0,2.0,1.0,White,Part-time,A-level or equivalent,False,True,False,True
+5cf510ccb0bafb00161ffd56,1,treatment,24.0,43,26.0,7.0,3.0,2.0,White,Full-time,A-level or equivalent,False,True,True,True
+5b6cd747a1fda800015ff9ba,1,treatment,31.0,59,23.0,3.0,2.0,5.0,White,Full-time,"Apprenticeship, higher education diploma or equivalent",False,True,False,False
+62a1d78571f418b5e6fc26fb,1,waitlist,26.0,34,23.0,5.0,2.0,5.0,Black,Full-time,Bachelor’s degree or equivalent,False,False,False,True
+627414b935ba5506bee347d2,1,treatment,32.0,58,25.0,12.0,3.0,0.0,White,Part-time,Bachelor’s degree or equivalent,False,True,False,True
+5e1cf0eb65b6d3071f489de9,1,treatment,29.0,35,12.0,7.0,1.0,4.0,White,Full-time,Bachelor’s degree or equivalent,False,False,False,True
+58ebfc286d5fe6000166b9ff,1,treatment,30.0,40,24.0,10.0,3.0,3.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5efb98c3d5919f121a986486,1,treatment,30.0,35,5.0,6.0,3.0,5.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+61321dc71434c8765dd3bf1c,1,waitlist,22.0,49,11.0,11.0,3.0,3.0,White,Student,Bachelor’s degree or equivalent,False,False,False,True
+57fbd79de7e73400019ca256,1,treatment,30.0,41,22.0,4.0,3.0,2.0,Mixed/Multiple,Full-time,Bachelor’s degree or equivalent,False,False,False,True
+634d73a0b235813241e9532a,1,treatment,25.0,48,32.0,17.0,2.0,3.0,White,Full-time,Bachelor’s degree or equivalent,False,False,True,True
+5a4be74f21bfa00001081851,1,treatment,25.0,48,17.0,12.0,2.0,3.0,White,Full-time,A-level or equivalent,False,True,False,False
+62796c419a79d1923fd947e2,1,treatment,29.0,60,17.0,6.0,3.0,2.0,White,Full-time,Bachelor’s degree or equivalent,False,True,True,True
+62ce97db1fa788670dea28c2,1,treatment,32.0,31,23.0,13.0,1.0,3.0,White,Full-time,Bachelor’s degree or equivalent,False,True,True,True
+629f9d0e292a1846040223b7,1,waitlist,33.0,33,20.0,5.0,3.0,2.0,White,Full-time,"Apprenticeship, higher education diploma or equivalent",False,False,True,True
+62ebd08bd6729790ced8587f,1,treatment,30.0,45,2.0,3.0,3.0,2.0,White,Temporarily not working,Bachelor’s degree or equivalent,False,True,False,False
+5e291f8145cbca0ecbadd6a3,1,waitlist,21.0,35,25.0,9.0,2.0,0.0,Asian,Student,A-level or equivalent,False,True,False,False
+5bb0cc738f3bd70001e513e3,1,waitlist,29.0,42,26.0,16.0,3.0,5.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5c37223ebef9a20001e38dad,1,treatment,31.0,32,18.0,6.0,1.0,2.0,Black,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5891dd715c15e00001583fbc,1,waitlist,35.0,46,21.0,19.0,3.0,2.0,White,Full-time,A-level or equivalent,False,True,True,False
+60ec9212ee17ee6d4945f7de,1,waitlist,22.0,31,26.0,11.0,3.0,1.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+611cf78346c5e728a66f1ebe,1,treatment,32.0,57,22.0,16.0,2.0,2.0,White,Part-time,Bachelor’s degree or equivalent,False,True,True,True
+611ffc2ea28e21fa33671d4c,1,waitlist,27.0,31,19.0,4.0,2.0,4.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5f50e3d60305bb088998b766,1,waitlist,31.0,42,16.0,5.0,2.0,2.0,Mixed/Multiple,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5efc4bfd3ba857044cac4787,1,waitlist,35.0,56,23.0,15.0,3.0,4.0,White,Full-time,A-level or equivalent,False,True,False,False
+6014c1b18c19b3524a3ef183,1,waitlist,20.0,45,28.0,20.0,2.0,3.0,White,Student,A-level or equivalent,True,False,False,True
+6128bb91e53faf657695550c,1,waitlist,33.0,46,5.0,3.0,2.0,1.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+61031d599d3fc41f00e7e6c0,1,waitlist,35.0,53,12.0,12.0,1.0,4.0,White,Full-time,Bachelor’s degree or equivalent,False,False,False,True
+5e19d095c5d2902507755956,1,waitlist,25.0,43,13.0,6.0,2.0,2.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5cc36fcedc68980014f27704,1,treatment,29.0,31,10.0,5.0,3.0,0.0,Black,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+6149b27bd1d1f40ed535c2b4,1,waitlist,29.0,36,21.0,5.0,1.0,3.0,White,Full-time,Bachelor’s degree or equivalent,False,True,True,False
+5f28431d82be890d2f58a32d,1,treatment,27.0,33,30.0,13.0,2.0,2.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5d575f44182f9f001900a380,1,waitlist,22.0,60,29.0,24.0,3.0,0.0,Asian,Student,Bachelor’s degree or equivalent,False,False,False,True
+5d2fc33c3af1410018f872ae,1,waitlist,22.0,55,21.0,14.0,2.0,1.0,White,Full-time,A-level or equivalent,False,True,False,False
+5d9261e776e8dd00195f28f2,1,treatment,35.0,39,27.0,11.0,2.0,1.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5eff6065cc8d32014292657f,1,waitlist,34.0,42,24.0,18.0,3.0,0.0,White,Full-time,Bachelor’s degree or equivalent,False,True,True,True
+5f493fea06249046a8db8569,1,treatment,20.0,51,21.0,6.0,3.0,5.0,Mixed/Multiple,Unemployed,A-level or equivalent,False,True,True,True
+5c4b987538878c0001c7883b,1,treatment,27.0,52,25.0,13.0,3.0,2.0,White,Full-time,A-level or equivalent,False,True,False,True
+615f352d323edd8ef58fedbd,1,treatment,30.0,39,15.0,12.0,2.0,2.0,White,Full-time,"Apprenticeship, higher education diploma or equivalent",False,True,False,False
+5c17c149f596b100011ca8b8,1,treatment,34.0,44,25.0,11.0,2.0,0.0,Mixed/Multiple,Unemployed,Bachelor’s degree or equivalent,False,True,False,False
+5fe3740d2738affd7cad1bc0,1,treatment,22.0,33,22.0,13.0,2.0,6.0,White,Part-time,Bachelor’s degree or equivalent,True,True,False,True
+5c158ec0c6b01c0001bcfa72,1,treatment,31.0,57,33.0,16.0,3.0,2.0,Mixed/Multiple,Full-time,Bachelor’s degree or equivalent,False,True,True,True
+5f69a3c91c1e25193e3f9c7b,1,treatment,24.0,49,13.0,10.0,3.0,2.0,Mixed/Multiple,Full-time,Bachelor’s degree or equivalent,False,False,False,True
+60edb4bc87206e9977d8d57e,1,waitlist,22.0,48,11.0,9.0,1.0,4.0,White,Full-time,A-level or equivalent,False,False,False,True
+5d3d9749607ede001a0712df,1,waitlist,20.0,37,15.0,15.0,2.0,0.0,White,Full-time,A-level or equivalent,False,True,False,True
+5caa61abcb4af3001640e877,1,treatment,30.0,40,19.0,16.0,3.0,3.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+6173a7aa2d3f11e56d9f96f2,1,treatment,28.0,37,12.0,13.0,3.0,3.0,White,Student,Bachelor’s degree or equivalent,True,True,True,True
+5f0f2ff0762218000970c967,1,waitlist,26.0,42,29.0,16.0,3.0,5.0,White,Part-time,A-level or equivalent,False,True,False,False
+6303c76ad8f0c525dbaa6563,1,waitlist,33.0,46,22.0,13.0,2.0,2.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+61673b692a55fba0f6b8abf1,1,treatment,30.0,47,20.0,7.0,2.0,2.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+5f3e788210bda10837e37fca,1,treatment,34.0,60,34.0,18.0,3.0,4.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,True
+5f34625f68dec936969152b0,1,waitlist,21.0,42,31.0,21.0,3.0,7.0,Mixed/Multiple,Full-time,Bachelor’s degree or equivalent,False,True,False,False
+628f73adc5b81a118dfb1a06,1,treatment,30.0,38,8.0,2.0,1.0,2.0,White,Part-time,A-level or equivalent,False,True,False,False
+5f81cf89624ff22aadd9c9a7,1,treatment,25.0,42,23.0,22.0,2.0,3.0,White,Full-time,A-level or equivalent,True,True,False,True
+603ce90d158dc4ae761a15fa,1,treatment,34.0,50,20.0,7.0,3.0,2.0,White,Full-time,Bachelor’s degree or equivalent,False,True,False,True

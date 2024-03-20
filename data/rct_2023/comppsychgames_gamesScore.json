@@ -1,0 +1,491 @@
+{
+  "5360c37cfdf99b02ccc08fcb": {
+    "game-attention-guessing": "0.95"
+  },
+  "56b0e4d16399f9000ad8d48f": {
+    "game-attention-fishing": "4.75",
+    "game-attention-guessing": "0.55",
+    "game-memory-words": "0.28",
+    "game-ssb-description": "1.00"
+  },
+  "56b8ad1be1d0a2000c154093": {
+    "game-attention-fishing": "3.63",
+    "game-attention-guessing": "0.63",
+    "game-memory-words": "0.96",
+    "game-ssb-description": "1.00"
+  },
+  "56c393c495cf7f000b956b25": {
+    "game-attention-fishing": "6.57",
+    "game-attention-guessing": "0.40"
+  },
+  "56c6f9efb0b7a1000c5d12d7": {
+    "game-attention-fishing": "6.04",
+    "game-attention-guessing": "0.47"
+  },
+  "56fbbcd14aaa50000da05e80": {
+    "game-attention-fishing": "4.96",
+    "game-attention-guessing": "0.53",
+    "game-memory-words": "0.93",
+    "game-ssb-description": "1.00"
+  },
+  "570ffae3736f6a00125577c5": {
+    "game-attention-fishing": "5.60",
+    "game-attention-guessing": "0.33",
+    "game-ssb-description": "1.00"
+  },
+  "578163a5c6144900014a0d21": {
+    "game-attention-fishing": "4.92",
+    "game-attention-guessing": "0.35",
+    "game-memory-words": "0.52",
+    "game-ssb-description": "1.00"
+  },
+  "582086da97b5100001b9b830": {
+    "game-attention-guessing": "0.72"
+  },
+  "58209f4785e40e00012f2a7d": {
+    "game-attention-fishing": "5.04",
+    "game-attention-guessing": "0.65",
+    "game-memory-words": "0.73",
+    "game-ssb-description": "1.00"
+  },
+  "5876428ceae9d5000140eb16": {
+    "game-attention-fishing": "5.15",
+    "game-attention-guessing": "0.42",
+    "game-memory-words": "0.32",
+    "game-ssb-description": "0.50"
+  },
+  "59839cb9554956000142d95f": {
+    "game-attention-fishing": "5.82",
+    "game-attention-guessing": "0.65",
+    "game-memory-words": "0.13",
+    "game-ssb-description": "0.13"
+  },
+  "59e675a6c0d35a00012951ce": {
+    "game-attention-fishing": "3.32",
+    "game-attention-guessing": "0.88",
+    "game-memory-words": "0.25",
+    "game-ssb-description": "1.00"
+  },
+  "59f392ef9618dc0001d33a58": {
+    "game-attention-fishing": "5.15",
+    "game-attention-guessing": "0.10",
+    "game-memory-words": "0.85"
+  },
+  "5a0a0b3afe645f0001e9f296": {
+    "game-attention-guessing": "0.38"
+  },
+  "5aafb6f2e1546900019b0772": {
+    "game-attention-fishing": "5.06",
+    "game-attention-guessing": "0.40",
+    "game-memory-words": "0.55",
+    "game-ssb-description": "1.00"
+  },
+  "5adec594e0feeb0001cacf00": {
+    "game-attention-fishing": "7.32",
+    "game-attention-guessing": "0.72",
+    "game-memory-words": "0.13",
+    "game-ssb-description": "1.00"
+  },
+  "5b09360c2971540001e3e248": {
+    "game-attention-fishing": "4.45",
+    "game-attention-guessing": "0.55",
+    "game-memory-words": "0.1",
+    "game-ssb-description": "1.00"
+  },
+  "5b89ad4819110c0001eb707c": {
+    "game-attention-fishing": "4.02",
+    "game-attention-guessing": "0.63",
+    "game-memory-words": "0.53"
+  },
+  "5b96b497169b86000125198e": {
+    "game-attention-fishing": "5.03",
+    "game-attention-guessing": "0.53",
+    "game-memory-words": "0.1",
+    "game-ssb-description": "0.25"
+  },
+  "5ba151aaa9e7be000135f08f": {
+    "game-attention-fishing": "6.54",
+    "game-attention-guessing": "0.53",
+    "game-memory-words": "0.23",
+    "game-ssb-description": "1.00"
+  },
+  "5bb7a2f927fb5000013cb0e6": {
+    "game-attention-fishing": "5.57",
+    "game-attention-guessing": "0.45",
+    "game-memory-words": "0.82",
+    "game-ssb-description": "0.63"
+  },
+  "5bddfba7712eb800010d3a61": {
+    "game-attention-fishing": "4.89",
+    "game-attention-guessing": "0.35",
+    "game-memory-words": "0.83",
+    "game-ssb-description": "0.00"
+  },
+  "5c012e180a73f700012f3c58": {
+    "game-attention-fishing": "6.97",
+    "game-attention-guessing": "0.57",
+    "game-memory-words": "0.15",
+    "game-ssb-description": "0.13"
+  },
+  "5c322f84508b7a0001fcb70d": {
+    "game-attention-fishing": "4.32",
+    "game-attention-guessing": "0.88"
+  },
+  "5c462f70f5bbb70001b2f902": {
+    "game-attention-fishing": "4.57",
+    "game-attention-guessing": "0.42",
+    "game-memory-words": "0.1",
+    "game-ssb-description": "1.00"
+  },
+  "5c4765349afd7b000196f770": {
+    "game-attention-fishing": "4.78",
+    "game-attention-guessing": "0.15",
+    "game-memory-words": "0.76",
+    "game-ssb-description": "1.00"
+  },
+  "5c93de86cf602b000170c25d": {
+    "game-attention-fishing": "5.11",
+    "game-attention-guessing": "0.23"
+  },
+  "5cb8d06a75c0e10001540418": {
+    "game-attention-guessing": "0.60"
+  },
+  "5cbf968cac918a00159337e8": {
+    "game-attention-fishing": "4.01",
+    "game-attention-guessing": "0.53",
+    "game-memory-words": "0.73"
+  },
+  "5ce9b0e4be5a6b00163f6870": {
+    "game-attention-fishing": "5.24",
+    "game-attention-guessing": "0.28",
+    "game-memory-words": "0.7",
+    "game-ssb-description": "1.00"
+  },
+  "5cf03df5f8188000013126aa": {
+    "game-attention-fishing": "5.28",
+    "game-attention-guessing": "0.50",
+    "game-memory-words": "0.33",
+    "game-ssb-description": "0.25"
+  },
+  "5cf3ce21392ca30016117ebb": {
+    "game-attention-fishing": "6.54",
+    "game-attention-guessing": "0.53",
+    "game-memory-words": "0.33",
+    "game-ssb-description": "1.00"
+  },
+  "5d1b9f1b4cebc80017c1d9ca": {
+    "game-attention-fishing": "5.03",
+    "game-attention-guessing": "0.38",
+    "game-memory-words": "0.15",
+    "game-ssb-description": "0.38"
+  },
+  "5d2b08784588590018cf70bb": {
+    "game-attention-fishing": "5.09",
+    "game-attention-guessing": "0.40"
+  },
+  "5d442839a8faa30001131e8a": {
+    "game-attention-fishing": "4.79",
+    "game-attention-guessing": "0.70"
+  },
+  "5d514a73f20feb00160b5e0e": {
+    "game-attention-guessing": "0.72"
+  },
+  "5d5317c8f780730018f2c748": {
+    "game-attention-guessing": "0.65"
+  },
+  "5d5e4ae367962a00151b58f6": {
+    "game-attention-fishing": "7.36",
+    "game-attention-guessing": "0.68",
+    "game-memory-words": "0.24",
+    "game-ssb-description": "1.00"
+  },
+  "5d6d8664171f6f0016e53a20": {
+    "game-attention-guessing": "0.53"
+  },
+  "5d8cef3c28e183001a335ab0": {
+    "game-attention-fishing": "5.97",
+    "game-attention-guessing": "0.47",
+    "game-memory-words": "0.29"
+  },
+  "5d990479ab3e03001624c314": {
+    "game-attention-fishing": "4.91",
+    "game-attention-guessing": "0.53",
+    "game-memory-words": "0.71",
+    "game-ssb-description": "1.00"
+  },
+  "5e3f63305ed1321be26ea5fe": {
+    "game-attention-fishing": "4.42",
+    "game-attention-guessing": "0.72",
+    "game-ssb-description": "1.00"
+  },
+  "5eb9697b651aca0436adfe9d": {
+    "game-attention-fishing": "5.44",
+    "game-attention-guessing": "0.80",
+    "game-memory-words": "0.17",
+    "game-ssb-description": "1.00"
+  },
+  "5ec5b2f06ec5296104b51897": {
+    "game-attention-guessing": "0.63",
+    "game-ssb-description": "1.00"
+  },
+  "5edca29654fe059801608fc0": {
+    "game-attention-fishing": "7.49",
+    "game-attention-guessing": "0.78",
+    "game-memory-words": "0.91",
+    "game-ssb-description": "1.00"
+  },
+  "5ede01a612a7d6000bf2316f": {
+    "game-attention-fishing": "4.42",
+    "game-attention-guessing": "0.72",
+    "game-memory-words": "0.53",
+    "game-ssb-description": "0.50"
+  },
+  "5ef647ec3ce68a1178780f5a": {
+    "game-attention-fishing": "6.08",
+    "game-attention-guessing": "0.70",
+    "game-memory-words": "0.12",
+    "game-ssb-description": "0.25"
+  },
+  "5efcf0c805671e11376ae93f": {
+    "game-attention-fishing": "6.15",
+    "game-attention-guessing": "0.63",
+    "game-memory-words": "0.43",
+    "game-ssb-description": "1.00"
+  },
+  "5f0874db34894f07bd04f436": {
+    "game-attention-fishing": "4.59",
+    "game-attention-guessing": "0.35"
+  },
+  "5f09068244f84c18faaa74bc": {
+    "game-attention-fishing": "7.22",
+    "game-attention-guessing": "0.78",
+    "game-memory-words": "0.14"
+  },
+  "5f0d962b96a8fa000871c68c": {
+    "game-attention-fishing": "3.28",
+    "game-attention-guessing": "0.38",
+    "game-memory-words": "0.13",
+    "game-ssb-description": "1.00"
+  },
+  "5f19675f002f9a01e273dc57": {
+    "game-attention-fishing": "4.40",
+    "game-attention-guessing": "0.80",
+    "game-memory-words": "0.53",
+    "game-ssb-description": "0.50"
+  },
+  "5f1c62b6554a0f4f129c75fd": {
+    "game-attention-fishing": "5.87",
+    "game-attention-guessing": "0.42"
+  },
+  "5f28196752b92a0a83d7a9db": {
+    "game-attention-fishing": "4.46",
+    "game-attention-guessing": "0.17",
+    "game-memory-words": "0.79",
+    "game-ssb-description": "1.00"
+  },
+  "5f2afec0781f2848ac688140": {
+    "game-attention-fishing": "4.38",
+    "game-attention-guessing": "0.78",
+    "game-memory-words": "0.59",
+    "game-ssb-description": "1.00"
+  },
+  "5f76e2c2c75fa118deba7f46": {
+    "game-attention-fishing": "4.79",
+    "game-attention-guessing": "0.38"
+  },
+  "5f85f0cab3f4e20ebf578203": {
+    "game-attention-fishing": "7.07",
+    "game-attention-guessing": "0.57"
+  },
+  "5f99104474aa880009b64318": {
+    "game-attention-fishing": "4.65",
+    "game-attention-guessing": "0.42",
+    "game-memory-words": "0.13",
+    "game-ssb-description": "1.00"
+  },
+  "5fc63e053cf83c06341ac94a": {
+    "game-attention-fishing": "6.13",
+    "game-attention-guessing": "0.42",
+    "game-memory-words": "0.38",
+    "game-ssb-description": "1.00"
+  },
+  "606dc9d8b666d8ce1dc6167b": {
+    "game-attention-fishing": "4.38",
+    "game-attention-guessing": "0.80",
+    "game-memory-words": "0.49"
+  },
+  "60768467a4f8fb1d215ff60c": {
+    "game-attention-fishing": "4.21",
+    "game-attention-guessing": "0.63",
+    "game-memory-words": "0.34",
+    "game-ssb-description": "1.00"
+  },
+  "60b0f00d76201e617923f93f": {
+    "game-attention-fishing": "4.64",
+    "game-attention-guessing": "0.53",
+    "game-memory-words": "0.16",
+    "game-ssb-description": "1.00"
+  },
+  "60bceb1dcefc0afe67041489": {
+    "game-attention-fishing": "5.61",
+    "game-attention-guessing": "0.55"
+  },
+  "60de4cc94dfda4d9e1948e6d": {
+    "game-attention-fishing": "5.06",
+    "game-attention-guessing": "0.25",
+    "game-memory-words": "0.76",
+    "game-ssb-description": "1.00"
+  },
+  "6103ecec19120bbb47800858": {
+    "game-attention-guessing": "0.60"
+  },
+  "612a87998958706392797405": {
+    "game-attention-fishing": "6.01",
+    "game-attention-guessing": "0.65"
+  },
+  "612faedae9ff56b775e3cee5": {
+    "game-attention-fishing": "5.08",
+    "game-attention-guessing": "0.23",
+    "game-memory-words": "0.74"
+  },
+  "613791ef07e699be4ebd53f8": {
+    "game-attention-fishing": "4.28",
+    "game-attention-guessing": "0.28"
+  },
+  "613f1d6420141eefc3e5f1b0": {
+    "game-attention-fishing": "4.51",
+    "game-attention-guessing": "0.33",
+    "game-memory-words": "0.42",
+    "game-ssb-description": "0.00"
+  },
+  "6154918f83e8ca861b23ea04": {
+    "game-attention-fishing": "5.91",
+    "game-attention-guessing": "0.42",
+    "game-memory-words": "0.33",
+    "game-ssb-description": "1.00"
+  },
+  "61601f0ddc31a716116888f1": {
+    "game-attention-guessing": "0.50"
+  },
+  "622e73ee8e552144c702f353": {
+    "game-attention-fishing": "4.72",
+    "game-attention-guessing": "0.57",
+    "game-memory-words": "0.14",
+    "game-ssb-description": "0.25"
+  },
+  "623478b74666adc4ae9be6ab": {
+    "game-attention-fishing": "6.18",
+    "game-attention-guessing": "0.60",
+    "game-memory-words": "0.14",
+    "game-ssb-description": "1.00"
+  },
+  "628a119d0b74d2b456ce5201": {
+    "game-attention-fishing": "4.90",
+    "game-attention-guessing": "0.45",
+    "game-memory-words": "0.11",
+    "game-ssb-description": "1.00"
+  },
+  "62a1fd297768ca1c93288d11": {
+    "game-attention-fishing": "5.61",
+    "game-attention-guessing": "0.57",
+    "game-memory-words": "0.31",
+    "game-ssb-description": "0.25"
+  },
+  "62a3b97d41ae082b602e815b": {
+    "game-attention-fishing": "6.90",
+    "game-attention-guessing": "0.75"
+  },
+  "62b182ba39468032223841bb": {
+    "game-attention-fishing": "5.31",
+    "game-attention-guessing": "0.28",
+    "game-memory-words": "0.67",
+    "game-ssb-description": "1.00"
+  },
+  "62b1eaacbc6e41266c8c35f1": {
+    "game-attention-fishing": "6.55",
+    "game-attention-guessing": "0.78"
+  },
+  "62c7e2035db496124cf69b56": {
+    "game-attention-fishing": "5.21",
+    "game-attention-guessing": "0.57",
+    "game-memory-words": "0.56",
+    "game-ssb-description": "1.00"
+  },
+  "62da562ad9942a440f6986c9": {
+    "game-attention-fishing": "5.08",
+    "game-attention-guessing": "0.47",
+    "game-memory-words": "0.23",
+    "game-ssb-description": "1.00"
+  },
+  "6307d62f2d8eece6282a3f6e": {
+    "game-attention-fishing": "5.01",
+    "game-attention-guessing": "0.25"
+  },
+  "6346aa206a094aebaddadf02": {
+    "game-attention-fishing": "3.98",
+    "game-attention-guessing": "0.53",
+    "game-memory-words": "0.42",
+    "game-ssb-description": "1.00"
+  },
+  "636928ef51cdaf360bebba1e": {
+    "game-attention-fishing": "9.24",
+    "game-attention-guessing": "0.33",
+    "game-memory-words": "0.88",
+    "game-ssb-description": "1.00"
+  },
+  "63718368eb248cc9835e70ff": {
+    "game-attention-fishing": "4.59",
+    "game-attention-guessing": "0.78",
+    "game-memory-words": "0.32",
+    "game-ssb-description": "0.13"
+  },
+  "63d13d214a2a7a3987f88f5b": {
+    "game-attention-fishing": "5.79",
+    "game-attention-guessing": "0.78",
+    "game-memory-words": "0.5",
+    "game-ssb-description": "0.50"
+  },
+  "63d140059a1a559c554e7e68": {
+    "game-attention-fishing": "5.87",
+    "game-attention-guessing": "0.80",
+    "game-memory-words": "0.14",
+    "game-ssb-description": "1.00"
+  },
+  "63d410b23af251fc009202cb": {
+    "game-attention-fishing": "5.29",
+    "game-attention-guessing": "0.50",
+    "game-memory-words": "0.28"
+  },
+  "63dff8bf03e29837eef8a379": {
+    "game-attention-fishing": "4.52",
+    "game-attention-guessing": "0.33",
+    "game-memory-words": "0.59",
+    "game-ssb-description": "1.00"
+  },
+  "6400d919945d23676a68b781": {
+    "game-attention-fishing": "4.84",
+    "game-attention-guessing": "0.15",
+    "game-ssb-description": "0.25"
+  },
+  "641379405684937e6fad9f1b": {
+    "game-attention-fishing": "4.90",
+    "game-attention-guessing": "0.72"
+  },
+  "9brfPmlSUzg4df2q0GhTWv9maZF2": {
+    "game-memory-words": "0.8"
+  },
+  "mHZYiIliTQMaTn8OcSUmZVUAQCG3": {
+    "game-ssb-description": "1.00"
+  },
+  "vFOIuQj9rrbK2GAr5iAO0SiYHJ33": {
+    "game-attention-guessing": "0.50"
+  },
+  "wQfMzGvLsvgN9L0qOrHAac4al5Q2": {
+    "game-attention-guessing": "0.75",
+    "game-memory-words": "0.78",
+    "game-ssb-description": "0.00"
+  },
+  "xvPyi5JJ63PasGvd2KQDbk1Ruzm1": {
+    "game-memory-words": "0.08"
+  }
+}

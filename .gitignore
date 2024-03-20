@@ -1,0 +1,6 @@
+.DS_Store
+env/
+src/private/
+src/__pycache__/
+comp-psych-games-componentAnswers.json
+alena-prod_componentAnswers.json

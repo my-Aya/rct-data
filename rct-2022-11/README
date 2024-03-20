@@ -1,6 +1,0 @@
-README
-
-rct_analyses.ipynb: Analysis file to run all analyses reported in Garvert et al., including the generation of the results figures
-raw_data: Contains Raw typeform data for each week
-preprocessed_data: Contains preprocessed files. Most relevant is the "merged.csv" file which contains completion data for all participants.
-figures: Containts the results figures created by the rct_analyses file

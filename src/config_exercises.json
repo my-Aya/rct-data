@@ -1,0 +1,158 @@
+{
+  "TYPEFORMS": {
+    "rct_2022": {
+      "M0C1": {
+        "title": "What is social anxiety?",
+        "module": "introduction"
+      },
+      "M0C2": {
+        "title": "How does Alena work?",
+        "module": "introduction"
+      },
+      "M1E1": {
+        "title": "Map out your social anxiety",
+        "module": "beliefs"
+      },
+      "M1E2": {
+        "title": "Understand your thought patterns",
+        "module": "beliefs"
+      },
+      "M2C1": {
+        "title": "What is self-attention?",
+        "module": "attention"
+      },
+      "M2E1": {
+        "title": "Explore a new perspective",
+        "module": "attention"
+      },
+      "M2E2": {
+        "title": "Learn to shift your attention",
+        "module": "attention"
+      },
+      "M3C1": {
+        "title": "What are safety behaviours?",
+        "module": "avoidance"
+      },
+      "M3E1": {
+        "title": "Prepare for real-life practice",
+        "module": "avoidance"
+      },
+      "M3E2": {
+        "title": "Reflect on real-life practice",
+        "module": "avoidance"
+      },
+      "M4C1E1": {
+        "title": "Learn to stop negative thoughts",
+        "module": "rumination"
+      },
+      "M4C2E2": {
+        "title": "Challenge your memory bias",
+        "module": "rumination"
+      }
+    },
+    "rct_2023": {
+      "M0A1": {
+        "title": "Check your social anxiety level",
+        "module": "introduction"
+      },
+      "M0E1": {
+        "title": "Are you ready?",
+        "module": "introduction"
+      },
+      "M0E2": {
+        "title": "Map out your social anxiety",
+        "module": "introduction"
+      },
+      "M0E3": {
+        "title": "Quiz",
+        "module": "introduction"
+      },
+      "M1E1": {
+        "title": "Balance a belief",
+        "module": "beliefs"
+      },
+      "M1E2": {
+        "title": "Explore a new perspective",
+        "module": "beliefs"
+      },
+      "M1E3": {
+        "title": "Put it into practice",
+        "module": "beliefs"
+      },
+      "M2E4": {
+        "title": "Put it into practice",
+        "module": "attention"
+      },
+      "M3E1": {
+        "title": "Learn to stop negative thoughts",
+        "module": "rumination"
+      },
+      "M3E2": {
+        "title": "Challenge your memory bias",
+        "module": "rumination"
+      },
+      "M3E3": {
+        "title": "Put it into practice",
+        "module": "rumination"
+      },
+      "M4E1": {
+        "title": "Identify a safety behaviour",
+        "module": "avoidance"
+      },
+      "M4E2": {
+        "title": "Plan your experiment",
+        "module": "avoidance"
+      },
+      "M4E3": {
+        "title": "Reflect on your experiment",
+        "module": "avoidance"
+      },
+      "M4E4": {
+        "title": "Put it into practice",
+        "module": "avoidance"
+      },
+      "M2E3": {
+        "title": "Train your attention",
+        "module": "attention"
+      },
+      "R0E0": {
+        "title": "Write a self-compassion letter to yourself",
+        "module": "recharge"
+      },
+      "R0E4": {
+        "title": "From inner critic to coach",
+        "module": "recharge"
+      },
+      "R0E9": {
+        "title": "Celebrate a small win",
+        "module": "recharge"
+      },
+      "R0E7": {
+        "title": "Create a balanced thought",
+        "module": "recharge"
+      },
+      "R0E10": {
+        "title": "Release from an unhelpful thought",
+        "module": "recharge"
+      },
+      "R0E8": {
+        "title": "Soothe worry with kindness",
+        "module": "recharge"
+      },
+      "R0E17": {
+        "title": "Rumination self-log",
+        "module": "recharge"
+      },
+      "R0E18": {
+        "title": "Stop the rumination spiral",
+        "module": "recharge"
+      }
+    }
+  },
+  "GAMES": {
+    "M1A1": "game-attention-guessing",
+    "M2A1": "game-attention-fishing",
+    "M3A1": "game-ssb-description",
+    "M4A1": "game-memory-words"
+  }
+}

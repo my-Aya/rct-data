@@ -1,0 +1,52 @@
+{
+  "continuous": {
+    "Age (years)": "age",
+    "SPIN": "spin_week0",
+    "WSAS": "wsas_week0",
+    "PHQ-9": "phq9_week0",
+    "Expectations for Alena": "alena_expectations_week0",
+    "Alcohol use": "alcohol"
+  },
+  "categorical": {
+    "Ethnicity": {
+      "variable": "ethnicity_week0",
+      "levels": {
+        "White": "White/White British",
+        "Black": "Black/Black British",
+        "Asian": "Asian/Asian British",
+        "Other": "Any other ethnic group",
+        "Mixed/Multiple": "Mixed/Multiple ethnic groups"
+      }
+    },
+    "Employment": {
+      "variable": "employment_week0",
+      "levels": {
+        "Full-time": "Working full-time",
+        "Part-time": "Working part-time",
+        "Student": "Student",
+        "Retired": "Retired",
+        "Unemployed": "Unemployed",
+        "Unable to work": "Unable to work due to disability or any other reason",
+        "Temporarily not working": "Temporarily away from work due to illness, maternity leave, or another reason"
+      }
+    },
+    "Education": {
+      "variable": "education_week0",
+      "levels": {
+        "No qualifications": ["No quailfications"],
+        "GCSE or equivalent": ["GCSE or equivalent"],
+        "A-level or equivalent": ["A Level or equivalent"],
+        "Apprenticeship, higher education diploma or equivalent": ["Apprenticeship, higher education diploma or equivalent"],
+        "Bachelor’s degree or equivalent": ["Degree or equivalent","Bachelor's degree or equivalent"],
+        "Postgraduate degree or equivalent": ["Post-graduate degree or equivalent","Postgraduate degree or equivalent"],
+        "PhD or equivalent": ["PhD or equivalent"]
+      }
+    }
+  },
+  "binary": {
+    "Any drug use": "drugs",
+    "Ever had therapy for social anxiety": "ever_had_therapy_week0",
+    "On medication": "taking_medication",
+    "Used apps for mental health before": "used_apps_before_week0"
+  }
+}
